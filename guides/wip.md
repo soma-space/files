@@ -16,7 +16,7 @@ If you are going to use your own computer or want to use another host then skip 
 6. Under Choose your instance plan select the first plan that has at least 4GB
 7. Click Create Instance at the bottom of the page
 8. Once your server is running press the screen icon to visually connect to your server
-9. Optionally use a Remote Desktop Client by pressing the three dots and then manage to see your login credentials
+9. Optionally use a Remote Desktop Client by pressing the three dots and then clicking manage to see your login credentials
 
 ## Installing MSSQL Server Express
 
