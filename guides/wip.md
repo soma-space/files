@@ -1,4 +1,4 @@
-# Myth of Soma Server Setup Guide
+# 🧙‍♂️ Myth of Soma Server Setup Guide
 
 
 
