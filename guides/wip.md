@@ -9,7 +9,7 @@ In order to set up a Myth of Soma game server we are going to need a computer th
 If you are going to use your own computer or want to use another host then skip to installation.
 
 1. Sign in or sign up for AWS developer account here: https://aws.amazon.com/console/
-2. Select Lightsail from the services panel in the top left
+2. Select Lightsail from the services panel in the top left or click here: https://lightsail.aws.amazon.com/ls/webapp/home
 3. Press the orange Create instance button
 4. Under Select a platform select Microsoft Windows blueprints
 5. Under Select a blueprint, press OS Only and select the latest Windows Server version
