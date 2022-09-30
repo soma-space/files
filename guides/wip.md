@@ -6,7 +6,7 @@
 
 In order to set up a Myth of Soma game server we are going to need a computer that can run Microsoft Windows.
 
-If you are going to use your own computer or want to use another host then skip to [Installation](#Installing MSSQL Server Express).
+If you are going to use your own computer or want to use another host then skip to installation.
 
 1. Sign in or sign up for AWS developer account here: https://aws.amazon.com/console/
 2. Select Lightsail from the services panel in the top left
