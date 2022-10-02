@@ -1,57 +1,37 @@
-# 🧙‍♂️ Myth of Soma Server Setup Guide
+# 🧙‍Soma Server Setup Guide
 
 
 
 ## Server Hosting
 
-In order to set up a Myth of Soma game server we are going to need a computer that can run Microsoft Windows.
+To set up a Soma server we are going to need a computer that has Microsoft Windows.
 
-If you are going to use your own computer or want to use another host then skip to installation.
+If you already have a Windows computer then skip this section.
 
 1. Sign in or sign up for AWS developer account here: https://aws.amazon.com/console/
-2. Navigate to: https://lightsail.aws.amazon.com/ls/webapp/home
+2. Select Lightsail from the services panel in the top left
 3. Press the orange Create instance button
 4. Under Select a platform select Microsoft Windows blueprints
 5. Under Select a blueprint, press OS Only and select the latest Windows Server version
 6. Under Choose your instance plan select the first plan that has at least 4GB
 7. Click Create Instance at the bottom of the page
-8. Once your server is running press the screen icon to visually connect to your server
-9. Optionally use a Remote Desktop Client by pressing the three dots and then clicking manage to see your login credentials
+8. Once your server is running connect to your server using RDP ✅
+
+
 
 ## Installing MSSQL Server Express
 
 1. Download MSSQL Express 2019 from  https://go.microsoft.com/fwlink/?linkid=866658
-
-2. Right click the installer, press run as administrator and select "Basic"
-
-3. Press Accept on licence terms screen
+2. Open the installer and select "Basic"
+3. Press Accept on Licence Terms screen
 4. Press Install on the install location screen, grab a cup of tea ☕️
-5. Open the SQL Server Installation Center
-6. Press New SQL Server stand-alone installation or add features to an existing installation
-7. Press Next
-
-
-
-
-
-```
-TITLE: SQL Server Setup failure.
-------------------------------
-
-SQL Server Setup has encountered the following error:
-
-Setup encountered a failure while running job UpdateResult.
-
-Error code 0x876E0003.
-
-For help, click: https://go.microsoft.com/fwlink?LinkID=20476&ProdName=Microsoft%20SQL%20Server&EvtSrc=setup.rll&EvtID=50000&EvtType=0x448E4A06%25400x96D07230
-
-------------------------------
-BUTTONS:
-
-OK
-------------------------------
-
-```
-
+5. Press New SQL Server stand-alone installation or add features to an existing installation
+6. Tick I accept the license terms and press Next on the License Terms screen
+7. Tick Use Microsoft Update to check for updates press Next
+8. Untick SQL Server Replication, Machine Learning Services and Full-Text, press Next
+9. Leave the Named instance as `SQLExpress` and Instance ID as `SQLEXPRESS`
+10. Press Next on the Server Configuration page
+11. Select Mixed mode, set a strong password for your sa account, press Next
+12. Press close and then Install SQL Server Management tools
+13. Open Microsoft SQL Server Management Studio
 
