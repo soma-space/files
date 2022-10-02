@@ -31,7 +31,18 @@ If you already have a Windows computer then skip this section.
 8. Untick SQL Server Replication, Machine Learning Services and Full-Text, press Next
 9. Leave the Named instance as `SQLExpress` and Instance ID as `SQLEXPRESS`
 10. Press Next on the Server Configuration page
-11. Select Mixed mode, set a strong password for your sa account, press Next
-12. Press close and then Install SQL Server Management tools
-13. Open Microsoft SQL Server Management Studio
+11. Select Mixed mode, set a strong password for your sa account, press Next and then Close ✅
 
+
+
+## Setup MSSQL 
+1. Install SQL Server Management tools from [Microsoft](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver16)
+2. Open Microsoft SQL Server Management Studio
+
+
+
+## Troubleshooting
+
+- Windows firewall causing issues on install of MSSQL?
+- Remove everything that mentions MSSQL via control panel if there is an error on install
+- Run the setup file as an administrator
