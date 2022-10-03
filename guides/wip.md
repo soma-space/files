@@ -35,10 +35,19 @@ If you already have a Windows computer then skip this section.
 
 
 
-## Setup MSSQL 
+## Prepare MSSQL 
 1. Install SQL Server Management tools from [Microsoft](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver16)
 2. Open Microsoft SQL Server Management Studio
-
+3. Select Windows Authentication and press Connect
+4. Download [your favourite database](https://github.com/soma-space/files/tree/main/databases) 
+5. Right click Databases and press Restore Database
+6. Select Device and press the ... button, press Add find your downloaded Database
+7. Change the Destination Database field to `soma` and press Ok
+8. Right Click Security -> Logins press New Login...
+9. Put `soma` into the Login name field, select SQL Server authentication
+10. Type `soma` into both password fields, untick Enforce password policy
+11. Change the default database to `soma` press User Mapping and tick the soma database
+12. Right click the main server node and press Server Properties, click Connections untick Allow remote connections to this server, then right click the node and press Restart
 
 
 ## Troubleshooting
