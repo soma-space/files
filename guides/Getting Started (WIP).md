@@ -50,7 +50,7 @@ If you already have a Windows computer then skip this section.
 12. Right click the main server node and press Server Properties, click Connections untick Allow remote connections to this server
 13. Click Security and make sure Server authentication is set to SQL Server and Windows Authentication mode
 14. Open SQL Server Configuration Manager, expand the SQL Server Network Configuration on the left hand side, press Protocols for SQLEXPRESS, enable TCP/IP
-15. Press SQL Server Services and restart the SQL Server (SQLEXPRESS) service
+15. Press SQL Server Services and restart the SQL Server (SQLEXPRESS) service ✅
 
 
 
@@ -62,8 +62,7 @@ If you already have a Windows computer then skip this section.
 4. Type `soma` into the Name field and Description field, set the server as your server name you should see this when you login, something like `EC2AHAZ-56LCI5B\SQLEXPRESS` 
 5. Select With SQL Server authentication using a login ID and password entered by the user
 6. Change the login id to `soma` and the password to `soma` press next
-7. Tick Change the default database to press next and finish then press ok
-
+7. Tick Change the default database to press next and finish then press ok ✅
 
 
 
@@ -79,5 +78,4 @@ ODBC Connection
 
 - Check the server authentication is still set to `SQL Server and Windows Authentication mode` 
 - If your ODBC connection isn't working close the window and press Add and try again
-
 
