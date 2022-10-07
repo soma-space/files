@@ -56,13 +56,22 @@ If you already have a Windows computer then skip this section.
 
 ## Create ODBC connection
 
-1. Open the start menu and search for "ODBC" open the top result
+1. Open the start menu and search for "ODBC" open the result that says (32-bit)
 2. Select System DSN and press Add...
 3. Select "SQL Server" and press finish
 4. Type `soma` into the Name field and Description field, set the server as your server name you should see this when you login, something like `EC2AHAZ-56LCI5B\SQLEXPRESS` 
 5. Select With SQL Server authentication using a login ID and password entered by the user
 6. Change the login id to `soma` and the password to `soma` press next
 7. Tick Change the default database to press next and finish then press ok ✅
+
+
+
+## Services
+
+1. Open Task Manager, more details, press Performance and click your network note down your IPv4 address
+2. Download [services](https://github.com/soma-space/files/tree/main/services) and open config.ini, change IP to the IP noted above, change ServicePath to your extracted `services` folder
+3. Open Services.exe and press Create Services, each service should say Started
+4. 
 
 
 
@@ -78,4 +87,9 @@ ODBC Connection
 
 - Check the server authentication is still set to `SQL Server and Windows Authentication mode` 
 - If your ODBC connection isn't working close the window and press Add and try again
+
+Services
+
+- Ensure your ODBC connection is a 32 bit connection, not a 64 bit connection
+
 
