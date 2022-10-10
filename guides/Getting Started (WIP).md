@@ -66,12 +66,14 @@ If you already have a Windows computer then skip this section.
 
 
 
-## Services
+## Start Server
 
 1. Open Task Manager, more details, press Performance and click your network note down your IPv4 address
 2. Download [services](https://github.com/soma-space/files/tree/main/services) and open config.ini, change IP to the IP noted above, change ServicePath to your extracted `services` folder
-3. Open Services.exe and press Create Services, each service should say Started
-4. 
+3. Open Services.exe and press Create Services, each service should say Started at the bottom 
+4. Download oneperone files from [here](https://github.com/soma-space/files/tree/main/oneperones/arcanine)
+5. Run sharedmem.exe
+6. Run oneperone.exe ✅
 
 
 
