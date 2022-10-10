@@ -85,6 +85,10 @@ If you already have a Windows computer then skip this section.
 INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'hello@example.com')
 ```
 3. Press Execute
+4. Go to Google and search for "what is my ip" copy your public IP address 
+5. Paste the IP address in services/dir.ini by replacing the value of SVR01_ADDR=192.168.0.1
+ with your public IP address i.e. SVR01_ADDR=11.11.11.11
+6. Download and install a esoma client from [here](https://www.reddit.com/r/soma_space/comments/y0kpmp/esoma_client_links/)
 
 
 
