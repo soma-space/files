@@ -1,0 +1,27 @@
+map 22 crashed on first import, subsequent loads are fine :S 
+http://d.pr/7BV2
+Update - seems to crash randomly on import 
+
+
+
+
+Mouse cursor seems to desync with the tile position when placing, seems occur when moving between monitors
+that the desync occurs
+
+using a 1920 x 1080 monitor on the left and a 1280 x 1024 monitor on the right
+
+Update - seems this happens even when working on one monitor, the further right you go on the monitor
+the further misaligned the cursor is to the tile, I'll disable my secondary monitor to see if it still happens
+
+update - okay since disabling the second monitor the editor has stopped loading tiles: http://d.pr/OOwx
+File structure has not changed: http://d.pr/TH9a replacing the map files with clean ones does not seem to fix it
+I'll carry on debugging after a restart as that might fix it, I assume the application isn't saving settings to
+the registry or %appdata% atm 
+
+
+
+
+
+
+
+Might be an idea to have the application generate a log on crash? 

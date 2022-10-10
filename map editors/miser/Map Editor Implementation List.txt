@@ -1,0 +1,7 @@
+- File names (allow 'MSET01')
+- Change directory names to be consistent with Soma
+- Undo (CTRL+Z)
+- Copy/Paste
+- Coordinate cells (move/nomove, special areas)
+- Light sources
+- Consistent DLL file names
