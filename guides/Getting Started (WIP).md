@@ -82,7 +82,7 @@ If you already have a Windows computer then skip this section.
 1. Open MSSQL Server Studio Press New Query
 2. Paste the following query, change the USERNAME and PASSWORD values
 ```SQL
-INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'sfyire@gmail.com')
+INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'hello@example.com')
 ```
 3. Press Execute
 
