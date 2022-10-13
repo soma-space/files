@@ -82,13 +82,28 @@ If you already have a Windows computer then skip this section.
 1. Open MSSQL Server Studio Press New Query
 2. Paste the following query, change the USERNAME and PASSWORD values
 ```SQL
-INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'hello@example.com')
+INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'sfyire@gmail.com')
 ```
 3. Press Execute
 4. Go to Google and search for "what is my ip" copy your public IP address 
 5. Paste the IP address in services/dir.ini by replacing the value of SVR01_ADDR=192.168.0.1
- with your public IP address i.e. SVR01_ADDR=11.11.11.11
+    with your public IP address i.e. SVR01_ADDR=11.11.11.11
 6. Download and install an esoma client from [here](https://www.reddit.com/r/soma_space/comments/y0kpmp/esoma_client_links/)
+7. Right click soma.exe inside `C:\Soma` and press Create shortcut
+8. Move the new shortcut to the Desktop right click it and press Properties in the target field add your public IP address so that the target field has this pattern: `C:\Soma\Soma.exe 11.11.11.11` ✅
+
+
+
+## Play!
+
+1. Double click the shortcut, login with the details you specified earllier and create a character
+2. Once you have a character this query can promote your character to game master
+```sql 
+UPDATE GAMEUSER 
+SET sRANK = '1' 
+WHERE strUserId = 'CharNameHere'
+```
+3. Login to your server as your character type `/rain 1` to test whether you have game master capabilities ✅
 
 
 
@@ -108,5 +123,3 @@ ODBC Connection
 Services
 
 - Ensure your ODBC connection is a 32 bit connection, not a 64 bit connection
-
-
