@@ -80,9 +80,9 @@ If you already have a Windows computer then skip this section.
 ## Prepare to Connect
 
 1. Open MSSQL Server Studio Press New Query
-2. Paste the following query, change the USERNAME and PASSWORD values
+2. Paste the following query, change the USERNAME, PASSWORD and EMAIL values
 ```SQL
-INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'sfyire@gmail.com')
+INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'EMAIL')
 ```
 3. Press Execute
 4. Go to Google and search for "what is my ip" copy your public IP address 
