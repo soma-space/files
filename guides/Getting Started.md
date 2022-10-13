@@ -99,9 +99,7 @@ INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWO
 1. Double click the shortcut, login with the details you specified earllier and create a character
 2. Once you have a character this query can promote your character to game master
 ```sql 
-UPDATE GAMEUSER 
-SET sRANK = '1' 
-WHERE strUserId = 'CharNameHere'
+UPDATE GAMEUSER SET sRANK = '1' WHERE strUserId = 'CharNameHere'
 ```
 3. Login to your server as your character type `/rain 1` to test whether you have game master capabilities ✅
 
