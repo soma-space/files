@@ -87,10 +87,19 @@ INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWO
 3. Press Execute
 4. Go to Google and search for "what is my ip" copy your public IP address 
 5. Paste the IP address in services/dir.ini by replacing the value of SVR01_ADDR=192.168.0.1
-    with your public IP address i.e. SVR01_ADDR=11.11.11.11
+    with your public IP address i.e. SVR01_ADDR=X.X.X.X
 6. Download and install an esoma client from [here](https://www.reddit.com/r/soma_space/comments/y0kpmp/esoma_client_links/)
 7. Right click soma.exe inside `C:\Soma` and press Create shortcut
-8. Move the new shortcut to the Desktop right click it and press Properties in the target field add your public IP address so that the target field has this pattern: `C:\Soma\Soma.exe 11.11.11.11` ✅
+8. Move the new shortcut to the Desktop right click it and press Properties in the target field add your public IP address so that the target field has this pattern: `C:\Soma\Soma.exe X.X.X.X` ✅
+
+
+
+## Networking
+
+1. Forward the TCP ports of 12000, 4110 in your network, add port 80 if you are hosting your own website
+   if you are using Lightsail follow the rest of this section
+2. Open Amazon Light sail, press the 3 dots next to your server click Manage and then Networking
+3. Then add your ports using the IPv4 Firewall, the Application needs to be set to custom for each port ✅
 
 
 
