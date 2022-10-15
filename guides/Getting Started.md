@@ -89,8 +89,7 @@ INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWO
 5. Paste the IP address in services/dir.ini by replacing the value of SVR01_ADDR=192.168.0.1
     with your public IP address i.e. SVR01_ADDR=X.X.X.X
 6. Download and install an esoma client from [here](https://www.reddit.com/r/soma_space/comments/y0kpmp/esoma_client_links/)
-7. Right click soma.exe inside `C:\Soma` and press Create shortcut
-8. Move the new shortcut to the Desktop right click it and press Properties in the target field add your public IP address so that the target field has this pattern: `C:\Soma\Soma.exe X.X.X.X` ✅
+7. Right click Myth of Soma shortcut on your desktop right click it and press Properties in the target field add your public IP address so that the target field has this pattern: `C:\Soma\Soma.exe X.X.X.X` ✅
 
 
 
