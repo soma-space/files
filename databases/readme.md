@@ -12,7 +12,7 @@ https://github.com/soma-space/files/blob/main/databases/soma.bak
 
 
 
-## Esoma characters Database 
+## Esoma Character Data Database 
 
 This database was donated to the project by Remix 
 
