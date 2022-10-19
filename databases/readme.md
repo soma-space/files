@@ -1,4 +1,4 @@
-# Databases
+# 📀 Databases
 
 ## Recommended Database (from original 3.0 server files)
 
