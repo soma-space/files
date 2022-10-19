@@ -1,6 +1,6 @@
 # Databases
 
-## Recommended development database (from 3.0 server files)
+## Recommended Database (from original 3.0 server files)
 
 This is the database that was maintained on the Somadev forum until its closure as a result it had lots of fixes over the years
 
