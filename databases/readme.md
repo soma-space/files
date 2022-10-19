@@ -6,13 +6,13 @@ This is the database that was maintained on the Somadev forum until its closure 
 
 Original context: http://somadev.com/forum/viewtopic.php?f=12&t=1977&start=50#p55461
 
-This DB has esoma rates and is at time of writing probably the best database to start a fresh server from
+This DB has ESoma rates and is at time of writing probably the best database to start a fresh server from
 
 https://github.com/soma-space/files/blob/main/databases/soma.bak
 
 
 
-## Esoma Character Data Database 
+## ESoma Character Data Database 
 
 This database was donated to the project by Remix 
 
