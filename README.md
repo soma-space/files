@@ -1,6 +1,6 @@
 # 🧙‍♂️ Soma Space 
 
-Getting started? Press [here](https://github.com/soma-space/files/blob/main/guides/Getting%20Started.md)
+Getting started? Press [here](https://github.com/soma-space/files/blob/main/guides/arcanine/Getting%20Started.md)
 
 ## Community Links
 
