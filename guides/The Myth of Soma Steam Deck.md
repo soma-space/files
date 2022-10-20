@@ -1,4 +1,4 @@
-## The Myth of Soma Install Guide for Steam Deck
+## The Myth of Soma Install Guide for Steam Deck (work in progress)
 
 
 
