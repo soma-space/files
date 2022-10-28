@@ -10,8 +10,7 @@
 
 
 
-
-### Notes
+### Installation
 
 1. Open Lutris, press the + button
 2. Press "Install a Windows game from media"
