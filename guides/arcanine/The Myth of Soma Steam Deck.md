@@ -13,6 +13,12 @@
 
 ### Notes
 
+1. Open Lutris, press the + button
+2. Press "Install a Windows game from media"
+3. In the Game name field type what you want your Steam shortcut to be
+4. Press Continue, Press Install, Tick all the shortcut related tickboxes press Install
+5. Press Browse... and select the main Soma installer press continue
+6. Install Soma like normal
 
 Install lutris via discover app
 Download the Myth of Soma installer
