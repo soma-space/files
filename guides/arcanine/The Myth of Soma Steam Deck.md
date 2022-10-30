@@ -18,6 +18,9 @@
 4. Press Continue, Press Install, Tick all the shortcut related tickboxes press Install
 5. Press Browse... and select the main Soma installer press continue
 6. Install Soma like normal
+7. When finished close the Lutris dialog without launching
+8. Select your new shortcut from lutris and choose "Run EXE inside Wine Prefix" next to the wine icon
+9. Select Patch221.exe
 
 Install lutris via discover app
 Download the Myth of Soma installer
