@@ -20,10 +20,13 @@ To create a free reposority of resources that can be utilised by players and dev
 
 We are actively looking for any files relating to the Myth of Soma, this could range from screenshots, to guild logos, to guides, to server files, client files, web site files, gameplay guides, 3D models, art, music etc.
 
-All files will be reviewed during pull request to ensure they are relevant to the Myth of Soma.
+All files will be reviewed during pull request to ensure they are relevant to the Myth of Soma, please use the pattern of /your category/your username/ to help us organise content
 
-We assume when you submit resources to us that you are happy with your content or assets being licensed under the MIT licence, if you are unsure of what that practically means, please check https://choosealicense.com/licenses/mit/.
+We assume when you submit resources to us that you are happy with your content or assets being licensed under the MIT licence by default, if you are unsure of what that practically means, please check https://choosealicense.com/licenses/mit/.
 
+If you'd like to use another license please submit a license file in your folder
+
+Large content that cannot practically fit on GitHub please use a file host and then link to the content either via a Readme file or from a reddit post: https://www.reddit.com/r/soma_space/
 
 
 
