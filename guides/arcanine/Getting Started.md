@@ -68,12 +68,15 @@ If you already have a Windows computer then skip this section.
 
 ## Start Server
 
-1. Open Task Manager, more details, press Performance and click your network note down your IPv4 address
-2. Download [services](https://github.com/soma-space/files/tree/main/services) and open config.ini, change IP to the IP noted above, change ServicePath to your extracted `services` folder
-3. Open Services.exe and press Create Services, each service should say Started at the bottom 
-4. Download oneperone files from [here](https://github.com/soma-space/files/tree/main/oneperones/arcanine)
-5. Run sharedmem.exe
-6. Run oneperone.exe ✅
+1. Go to Google and search for "what is my ip" copy your public IP address 
+2. Paste the IP address in services/dir.ini by replacing the value of SVR01_ADDR=192.168.0.1
+    with your public IP address i.e. SVR01_ADDR=X.X.X.X
+3. Open Task Manager, more details, press Performance and click your network note down your IPv4 address
+4. Download [services](https://github.com/soma-space/files/tree/main/services) and open config.ini, change IP to the IP noted above, change ServicePath to your extracted `services` folder
+5. Open Services.exe and press Create Services, each service should say Started at the bottom 
+6. Download oneperone files from [here](https://github.com/soma-space/files/tree/main/oneperones/arcanine)
+7. Run sharedmem.exe
+8. Run oneperone.exe ✅
 
 
 
@@ -85,11 +88,9 @@ If you already have a Windows computer then skip this section.
 INSERT INTO NGSCUSER (strUserId, strPasswd, strEmail) VALUES ('USERNAME','PASSWORD', 'EMAIL')
 ```
 3. Press Execute
-4. Go to Google and search for "what is my ip" copy your public IP address 
-5. Paste the IP address in services/dir.ini by replacing the value of SVR01_ADDR=192.168.0.1
-    with your public IP address i.e. SVR01_ADDR=X.X.X.X
-6. Download and install an esoma client from [here](https://www.reddit.com/r/soma_space/comments/y0kpmp/esoma_client_links/)
-7. Right click Myth of Soma shortcut on your desktop right click it and press Properties in the target field add your public IP address so that the target field has this pattern: `C:\Soma\Soma.exe X.X.X.X` ✅
+
+4. Download and install an esoma client from [here](https://www.reddit.com/r/soma_space/comments/y0kpmp/esoma_client_links/)
+5. Right click Myth of Soma shortcut on your desktop right click it and press Properties in the target field add your public IP address so that the target field has this pattern: `C:\Soma\Soma.exe X.X.X.X` ✅
 
 
 
