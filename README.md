@@ -24,7 +24,7 @@ All files will be reviewed during pull request to ensure they are relevant to th
 
 We assume when you submit resources to us that you are happy with your content or assets being licensed under the MIT licence by default, if you are unsure of what that practically means, please check https://choosealicense.com/licenses/mit/.
 
-If you'd like to use another license please submit a license file in your folder
+If you'd like to use another license please submit a license file with your submission
 
 Large content that cannot practically fit on GitHub please use a file host and then link to the content either via a Readme file or from a reddit post: https://www.reddit.com/r/soma_space/
 
