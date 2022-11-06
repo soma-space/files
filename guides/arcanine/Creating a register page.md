@@ -19,4 +19,6 @@ Link to Ramy's shared web pages for more advanced features
 
 ---
 
-Use PHP's msi installer then use PHP's inbuilt server?
+Use PHP's msi installer then use PHP's inbuilt server? - PHP have deprecated their MSI installer :| 
+
+What about the windows package managers?
