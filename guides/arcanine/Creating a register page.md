@@ -16,3 +16,7 @@ Knock up basic site for register page
 
 
 Link to Ramy's shared web pages for more advanced features
+
+---
+
+Use PHP's msi installer then use PHP's inbuilt server?
