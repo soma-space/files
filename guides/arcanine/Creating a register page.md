@@ -27,3 +27,8 @@ What about the windows package managers?
 
 1. Download & install the Chocolately package manager from [here](https://chocolatey.org/install)
 2. Paste `choco install php` into the command prompt and press enter
+
+
+--- 
+
+In built PHP server does not work on public networks https://www.php.net/manual/en/features.commandline.webserver.php
