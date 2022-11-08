@@ -34,3 +34,7 @@ What about the windows package managers?
 In built PHP server does not work on public networks https://www.php.net/manual/en/features.commandline.webserver.php
 
 Maybe need to cave in and do `choco install xampp-81`
+
+---
+
+It's very tempting to just make a clojure .exe file and provide source code
