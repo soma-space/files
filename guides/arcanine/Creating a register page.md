@@ -22,3 +22,8 @@ Link to Ramy's shared web pages for more advanced features
 Use PHP's msi installer then use PHP's inbuilt server? - PHP have deprecated their MSI installer :| 
 
 What about the windows package managers?
+
+## Install PHP
+
+1. Download & install the Chocolately package manager from [here](https://chocolatey.org/install)
+2. Paste `choco install php` into the command prompt and press enter
