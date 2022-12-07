@@ -1,0 +1,102 @@
+#if !defined(AFX_AUTOSPRDLG_H__09866B21_4EF3_11D3_9559_00C026EE03FC__INCLUDED_)
+#define AFX_AUTOSPRDLG_H__09866B21_4EF3_11D3_9559_00C026EE03FC__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+// AutoSpriteDlg.h : header file
+//
+
+/////////////////////////////////////////////////////////////////////////////
+// CAutoSprDlg dialog
+#include "Resource.h"
+#include "AniObjLSPEx.h"
+#include "ToolEngine1.h"
+
+class CAutoSprDlg : public CDialog
+{
+// Construction
+public:
+	static int CompareIntegerProc(const void *arg1, const void *arg2);
+	static int CompareDirAndFrmsProc(const void *arg1, const void *arg2);
+	static int CompareStringAscendProc(const void *arg1, const void *arg2);
+
+	typedef struct _AUTO_SPR_LSP_EX
+	{
+		int nAni;		// 에니메이션 번호
+		int nDir;		// 방향 (0~7)
+		int nFrame;		// 프레임 (0~99)
+
+		CRect rcV1;		// 사각 영역
+		int	nV1;		// 캐릭터 영역 총 데이터 바이트 수
+		WORD* pV1;		// 캐릭터 영역 데이터 포인터
+
+		CRect rcV2;		// 사각 영역
+		int nV2;		// 무기 영역 총 데이터 바이트 수
+		WORD* pV2;		// 무기 영역 데이터 포인터
+		
+		CRect rcSH;		// 사각 영역
+		int nSH;		// 그림자 영역 총 데이터 바이트 수
+		WORD* pSH;		// 그림자 영역 데이터 포인터
+		
+		CRect rcFX;		// 사각 영역
+		int nFX;		// 효과 영역 총 데이터 바이트 수
+		WORD* pFX;		// 효과 영역 데이터 포인터
+
+		CRect rcPs[MAX_PART];	// 파트사각 영역
+		int nPs[MAX_PART];	// 효과 영역 총 데이터 바이트 수
+		WORD* pPs[MAX_PART];	// 효과 영역 데이터 포인터
+		_AUTO_SPR_LSP_EX const & operator = (_AUTO_SPR_LSP_EX const & other)
+		{
+			memcpy(this, &other, sizeof(*this));
+			return *this;
+		}
+	} _AUTO_SPR_LSP_EX;
+
+	CAutoSprDlg();
+	~CAutoSprDlg();
+
+// Dialog Data
+	//{{AFX_DATA(CAutoSprDlg)
+	enum { IDD = IDD_AUTO_SPRITE };
+	CButton	m_CReinforce;
+	CProgressCtrl	m_Progress;
+	CEdit	m_FileName;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CAutoSprDlg)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+	BOOL m_bStopProcess;
+// Implementation
+protected:
+	void ProcessLSPSprExByFileName(CString& Path, CPoint ptCenter);
+	void ProcessLSPSprExByFolder(CString& Path, CPoint ptCenter);
+	CString ProcessLSPSprSimple(CString& FolderName, CPoint ptCenter);
+
+	// 스프라이트 자동 추출..
+	BOOL TransactLSPSprEx(CString& FileTitle, _AUTO_SPR_LSP_EX* pData);
+	BOOL TransactPieceLSPSpr(CString& AntiFileName, CString NonAntiFileName, RECT *pRC, int* pnData, WORD** ppwData);
+
+	void ClearPreview();
+	void UpdatePreview(POINT ptOffset, WORD* pLSPSpr);
+
+	// Generated message map functions
+	//{{AFX_MSG(CAutoSprDlg)
+	afx_msg void OnBrowseWorkFolderAndStartWorking();
+	afx_msg void OnClosedlg();
+	afx_msg void OnCancelProcess();
+	virtual BOOL OnInitDialog();
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+
+};
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_AUTOSPRDLG_H__09866B21_4EF3_11D3_9559_00C026EE03FC__INCLUDED_)
