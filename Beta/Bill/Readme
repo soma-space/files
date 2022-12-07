@@ -1,1 +1,10 @@
 Deposited by Bill
+
+Soma Client - A beta (we believe) version of the MoS client. It's missing things like sound and armature but could be an ideal way to work on a client in
+a simplified (albeit basic way).
+
+Soma Tools - The executable that loads a series of buttons to manage the visual representation aspects of graphics and artwork. For e.g. designing a map
+with tile sets, creating tilesets, converting images to soma's native image format (16 bit bmp with a custom header - .spl). This tool is pretty raw and undeveloped.
+
+Feel free to create your own project for either of these and should you wish to, advertise it here fur contribution? :-)
+
