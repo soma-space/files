@@ -1,0 +1,749 @@
+ MapManager
+
+ Timestamp is 3a802adf (Wed Feb 07 01:48:31 2001)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000b134H .text                   CODE
+ 0001:0000b140 00000787H .text$x                 CODE
+ 0002:00000000 0000040dH .rdata                  DATA
+ 0002:00000410 00000728H .xdata$x                DATA
+ 0002:00000b40 00000d9eH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00000320H .data                   DATA
+ 0003:00000330 00000070H .bss                    DATA
+ 0004:00000000 00000064H .idata$2                DATA
+ 0004:00000064 00000014H .idata$3                DATA
+ 0004:00000078 00000200H .idata$4                DATA
+ 0004:00000278 00000200H .idata$5                DATA
+ 0004:00000478 0000035cH .idata$6                DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000300H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ??0CCustomTile@@QAE@XZ     10001000 f   CustomTile.obj
+ 0001:000000b0       ??_GCCustomTile@@UAEPAXI@Z 100010b0 f i CustomTile.obj
+ 0001:000000b0       ??_ECCustomTile@@UAEPAXI@Z 100010b0 f i CustomTile.obj
+ 0001:00000110       ??0?$CTypedPtrArray@VCPtrArray@@PAVCCustomTileVary@@@@QAE@XZ 10001110 f i CustomTile.obj
+ 0001:00000160       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCCustomTileVary@@@@UAEPAXI@Z 10001160 f i CustomTile.obj
+ 0001:00000160       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCCustomTileVary@@@@UAEPAXI@Z 10001160 f i CustomTile.obj
+ 0001:000001b0       ??1?$CTypedPtrArray@VCPtrArray@@PAVCCustomTileVary@@@@UAE@XZ 100011b0 f i CustomTile.obj
+ 0001:000001f0       ??1CCustomTile@@UAE@XZ     100011f0 f   CustomTile.obj
+ 0001:00000290       ?Load@CCustomTile@@QAEHAAVCArchive@@@Z 10001290 f   CustomTile.obj
+ 0001:00000500       ?RemoveAllData@CCustomTile@@IAEXXZ 10001500 f   CustomTile.obj
+ 0001:00000620       ?DarkenProcess@CCustomTile@@QAEXK@Z 10001620 f   CustomTile.obj
+ 0001:000006b0       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCCustomTileVary@@@@QAEXHPAVCCustomTileVary@@@Z 100016b0 f i CustomTile.obj
+ 0001:000006f0       ??A?$CTypedPtrArray@VCPtrArray@@PAVCCustomTileVary@@@@QAEAAPAVCCustomTileVary@@H@Z 100016f0 f i CustomTile.obj
+ 0001:00000730       ??0CCustomTileVary@@QAE@XZ 10001730 f   CustomTileVary.obj
+ 0001:00000780       ??_GCCustomTileVary@@UAEPAXI@Z 10001780 f i CustomTileVary.obj
+ 0001:00000780       ??_ECCustomTileVary@@UAEPAXI@Z 10001780 f i CustomTileVary.obj
+ 0001:000007e0       ??0?$CTypedPtrArray@VCPtrArray@@PAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@@QAE@XZ 100017e0 f i CustomTileVary.obj
+ 0001:00000830       ??_G?$CTypedPtrArray@VCPtrArray@@PAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@@UAEPAXI@Z 10001830 f i CustomTileVary.obj
+ 0001:00000830       ??_E?$CTypedPtrArray@VCPtrArray@@PAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@@UAEPAXI@Z 10001830 f i CustomTileVary.obj
+ 0001:00000880       ??1?$CTypedPtrArray@VCPtrArray@@PAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@@UAE@XZ 10001880 f i CustomTileVary.obj
+ 0001:000008c0       ??1CCustomTileVary@@UAE@XZ 100018c0 f   CustomTileVary.obj
+ 0001:00000940       ?Load@CCustomTileVary@@QAEHAAVCArchive@@VCSize@@PAEK@Z 10001940 f   CustomTileVary.obj
+ 0001:00000b40       ??0?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@QAE@XZ 10001b40 f i CustomTileVary.obj
+ 0001:00000b90       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@UAEPAXI@Z 10001b90 f i CustomTileVary.obj
+ 0001:00000b90       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@UAEPAXI@Z 10001b90 f i CustomTileVary.obj
+ 0001:00000be0       ??1?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@UAE@XZ 10001be0 f i CustomTileVary.obj
+ 0001:00000c20       ?RemoveAllData@CCustomTileVary@@IAEXXZ 10001c20 f   CustomTileVary.obj
+ 0001:00000d80       ?DarkenProcess@CCustomTileVary@@QAEXK@Z 10001d80 f   CustomTileVary.obj
+ 0001:00000e60       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@@QAEXHPAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@Z 10001e60 f i CustomTileVary.obj
+ 0001:00000ea0       ??A?$CTypedPtrArray@VCPtrArray@@PAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@@QAEAAPAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@H@Z 10001ea0 f i CustomTileVary.obj
+ 0001:00000ee0       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@QBEPAVCTilePiece@@H@Z 10001ee0 f i CustomTileVary.obj
+ 0001:00000f20       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@QAEXHPAVCTilePiece@@@Z 10001f20 f i CustomTileVary.obj
+ 0001:00000f60       ??0CDib@@QAE@XZ            10001f60 f   Dib.obj
+ 0001:00000fb0       ??_ECDib@@UAEPAXI@Z        10001fb0 f i Dib.obj
+ 0001:00000fb0       ??_GCDib@@UAEPAXI@Z        10001fb0 f i Dib.obj
+ 0001:00001010       ??1CDib@@UAE@XZ            10002010 f   Dib.obj
+ 0001:00001050       ?ReadFile@CDib@@QAEHVCString@@@Z 10002050 f   Dib.obj
+ 0001:00001360       ?StretchDraw@CDib@@QAEXPAVCDC@@VCPoint@@VCSize@@@Z 10002360 f   Dib.obj
+ 0001:00001430       ?Draw@CDib@@QAEXPAVCDC@@VCPoint@@@Z 10002430 f   Dib.obj
+ 0001:00001510       ?TransparentDraw@CDib@@QAEXPAVCDC@@VCPoint@@K@Z 10002510 f   Dib.obj
+ 0001:00001830       ?RemoveData@CDib@@QAEXXZ   10002830 f   Dib.obj
+ 0001:00001890       ?SaveCore@CDib@@QAEHAAVCArchive@@@Z 10002890 f   Dib.obj
+ 0001:00001940       ?LoadCore@CDib@@QAEHAAVCArchive@@PADK@Z 10002940 f   Dib.obj
+ 0001:00001a60       ?Save@CDib@@QAEHAAVCArchive@@@Z 10002a60 f   Dib.obj
+ 0001:00001b00       ?Load@CDib@@QAEHAAVCArchive@@@Z 10002b00 f   Dib.obj
+ 0001:00001c00       ?GetBitmapInfoCopy@CDib@@QAEHPAPADAAK@Z 10002c00 f   Dib.obj
+ 0001:00001ce0       ?FindDIBBits@CDib@@SAPADPAD@Z 10002ce0 f   Dib.obj
+ 0001:00001d30       ?PaletteSize@CDib@@SAGPAD@Z 10002d30 f   Dib.obj
+ 0001:00001d70       ?DIBNumColors@CDib@@SAGPAD@Z 10002d70 f   Dib.obj
+ 0001:00001df0       ?DIBWidth@CDib@@SAKPAD@Z   10002df0 f   Dib.obj
+ 0001:00001e20       ?DIBHeight@CDib@@SAKPAD@Z  10002e20 f   Dib.obj
+ 0001:00001e50       ?Copy@CDib@@QAEXAAV1@@Z    10002e50 f   Dib.obj
+ 0001:00001f50       ?ReadData@CDib@@QAEHPADK@Z 10002f50 f   Dib.obj
+ 0001:00002030       ?GetMapStatus@SM_MapManager@@QAEHXZ 10003030 f i MapCell.obj
+ 0001:00002060       ??0CMapCell@@QAE@XZ        10003060 f   MapCell.obj
+ 0001:000020e0       ??_ECMapCell@@UAEPAXI@Z    100030e0 f i MapCell.obj
+ 0001:000020e0       ??_GCMapCell@@UAEPAXI@Z    100030e0 f i MapCell.obj
+ 0001:00002140       ??1CMapCell@@UAE@XZ        10003140 f   MapCell.obj
+ 0001:00002170       ?Load@CMapCell@@QAEHAAVCArchive@@@Z 10003170 f   MapCell.obj
+ 0001:000021e0       ?RotateAnimation@CMapCell@@QAEXXZ 100031e0 f   MapCell.obj
+ 0001:00002210       ?Draw@CMapCell@@QAEXPAVCDDSurface@@VCPoint@@@Z 10003210 f   MapCell.obj
+ 0001:00002260       _ExtRawDllMain@12          10003260 f   MapManager.obj
+ 0001:000022e0       _DllMain@12                100032e0 f   MapManager.obj
+ 0001:000023b0       ??B?$CTypedSimpleList@PAUCRuntimeClass@@@@QAEPAUCRuntimeClass@@XZ 100033b0 f i MapManager.obj
+ 0001:000023f0       ??B?$CTypedSimpleList@PAVCOleObjectFactory@@@@QAEPAVCOleObjectFactory@@XZ 100033f0 f i MapManager.obj
+ 0001:00002430       ?GetHead@CSimpleList@@QBEPAXXZ 10003430 f i MapManager.obj
+ 0001:00002460       ??0CSgrRes@@QAE@XZ         10003460 f   SgrRes.obj
+ 0001:00002530       ??_GCSgrRes@@UAEPAXI@Z     10003530 f i SgrRes.obj
+ 0001:00002530       ??_ECSgrRes@@UAEPAXI@Z     10003530 f i SgrRes.obj
+ 0001:00002590       ??0?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@QAE@XZ 10003590 f i SgrRes.obj
+ 0001:000025e0       ??1?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@UAE@XZ 100035e0 f i SgrRes.obj
+ 0001:00002620       ??0?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@QAE@XZ 10003620 f i SgrRes.obj
+ 0001:00002670       ??1?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@UAE@XZ 10003670 f i SgrRes.obj
+ 0001:000026b0       ??0?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@QAE@XZ 100036b0 f i SgrRes.obj
+ 0001:00002700       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@UAEPAXI@Z 10003700 f i SgrRes.obj
+ 0001:00002700       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@UAEPAXI@Z 10003700 f i SgrRes.obj
+ 0001:00002750       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@UAEPAXI@Z 10003750 f i SgrRes.obj
+ 0001:00002750       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@UAEPAXI@Z 10003750 f i SgrRes.obj
+ 0001:000027a0       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@UAEPAXI@Z 100037a0 f i SgrRes.obj
+ 0001:000027a0       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@UAEPAXI@Z 100037a0 f i SgrRes.obj
+ 0001:000027f0       ??1?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@UAE@XZ 100037f0 f i SgrRes.obj
+ 0001:00002830       ??1CSgrRes@@UAE@XZ         10003830 f   SgrRes.obj
+ 0001:000028e0       ?Load@CSgrRes@@QAEHVCString@@@Z 100038e0 f   SgrRes.obj
+ 0001:00002e40       ?RemoveAllData@CSgrRes@@QAEXXZ 10003e40 f   SgrRes.obj
+ 0001:00003010       ?ReloadResource@CSgrRes@@IAEXXZ 10004010 f   SgrRes.obj
+ 0001:00003080       ?SetDarkLevel@CSgrRes@@QAEHHH@Z 10004080 f   SgrRes.obj
+ 0001:00003160       ?DarkenProcess@CSgrRes@@IAEXXZ 10004160 f   SgrRes.obj
+ 0001:000032e0       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@QBEPAVCTile@@H@Z 100042e0 f i SgrRes.obj
+ 0001:00003320       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@QAEXHPAVCTile@@@Z 10004320 f i SgrRes.obj
+ 0001:00003360       ??A?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@QAEAAPAVCTile@@H@Z 10004360 f i SgrRes.obj
+ 0001:000033a0       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@QBEPAVCSprite@@H@Z 100043a0 f i SgrRes.obj
+ 0001:000033e0       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@QAEXHPAVCSprite@@@Z 100043e0 f i SgrRes.obj
+ 0001:00003420       ??A?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@QAEAAPAVCSprite@@H@Z 10004420 f i SgrRes.obj
+ 0001:00003460       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@QBEPAVCCustomTile@@H@Z 10004460 f i SgrRes.obj
+ 0001:000034a0       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@QAEXHPAVCCustomTile@@@Z 100044a0 f i SgrRes.obj
+ 0001:000034e0       ??A?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@QAEAAPAVCCustomTile@@H@Z 100044e0 f i SgrRes.obj
+ 0001:00003520       ?GetInterface@CDDClipper@@QAEPAUIDirectDrawClipper@@XZ 10004520 f i SM_MapManager.obj
+ 0001:00003550       ?GetMatchColor@CDDSurface@@QAEKK@Z 10004550 f i SM_MapManager.obj
+ 0001:000035a0       ?GetInterface@CDDSurface@@QAEPAUIDirectDrawSurface7@@XZ 100045a0 f i SM_MapManager.obj
+ 0001:000035d0       ?GetDescription@CDDSurface@@QAEAAU_DDSURFACEDESC2@@XZ 100045d0 f i SM_MapManager.obj
+ 0001:00003600       ?GetWidth@CDDSurface@@QAEHXZ 10004600 f i SM_MapManager.obj
+ 0001:00003650       ?GetHeight@CDDSurface@@QAEHXZ 10004650 f i SM_MapManager.obj
+ 0001:000036a0       ?GetPitch@CDDSurface@@QAEHXZ 100046a0 f i SM_MapManager.obj
+ 0001:000036f0       ?GetInterface@CDirectDraw@@QAEPAUIDirectDraw7@@XZ 100046f0 f i SM_MapManager.obj
+ 0001:00003720       ?SetWindowedMode@CDirectDraw@@QAEHPAUHWND__@@HH@Z 10004720 f i SM_MapManager.obj
+ 0001:00003770       ?SetFullScreenMode@CDirectDraw@@QAEHPAUHWND__@@HHH@Z 10004770 f i SM_MapManager.obj
+ 0001:000037c0       ?IsSWRenderOnly@CDirectDraw@@QAEHXZ 100047c0 f i SM_MapManager.obj
+ 0001:000037f0       ?GetBackBuffer@CDirectDraw@@QAEPAVCDDSurface@@XZ 100047f0 f i SM_MapManager.obj
+ 0001:00003820       ?GetFrontBuffer@CDirectDraw@@QAEPAVCDDSurface@@XZ 10004820 f i SM_MapManager.obj
+ 0001:00003850       ?GetPalette@CDirectDraw@@QAEPAVCDDPalette@@XZ 10004850 f i SM_MapManager.obj
+ 0001:00003880       ?GetInterface@CDirectInput@@QAEPAUIDirectInputA@@XZ 10004880 f i SM_MapManager.obj
+ 0001:000038b0       ?GetConnectedHwnd@CDirectInput@@QAEPAUHWND__@@XZ 100048b0 f i SM_MapManager.obj
+ 0001:000038e0       ?GetDeviceMode@CDirectInputDevice@@QAEHXZ 100048e0 f i SM_MapManager.obj
+ 0001:00003910       ?GetInterface@CDirectInputDevice@@QAEPAUIDirectInputDeviceA@@XZ 10004910 f i SM_MapManager.obj
+ 0001:00003940       ??0SM_MapManager@@QAE@XZ   10004940 f   SM_MapManager.obj
+ 0001:00003be0       ??_GSM_MapManager@@UAEPAXI@Z 10004be0 f i SM_MapManager.obj
+ 0001:00003c40       ??_ESM_MapManager@@UAEPAXI@Z 10004c40 f i SM_MapManager.obj
+ 0001:00003ce0       ??0?$CTypedPtrArray@VCPtrArray@@PAVCPoint@@@@QAE@XZ 10004ce0 f i SM_MapManager.obj
+ 0001:00003d30       ??1?$CTypedPtrArray@VCPtrArray@@PAVCPoint@@@@UAE@XZ 10004d30 f i SM_MapManager.obj
+ 0001:00003d70       ??_H@YGXPAXIHP6EX0@Z@Z     10004d70 f i SM_MapManager.obj
+ 0001:00003dd0       ??0?$CTypedPtrArray@VCPtrArray@@PAVCSgrRes@@@@QAE@XZ 10004dd0 f i SM_MapManager.obj
+ 0001:00003e20       ??1?$CTypedPtrArray@VCPtrArray@@PAVCSgrRes@@@@UAE@XZ 10004e20 f i SM_MapManager.obj
+ 0001:00003e60       ??0?$CTypedPtrArray@VCPtrArray@@PAVCMapCell@@@@QAE@XZ 10004e60 f i SM_MapManager.obj
+ 0001:00003eb0       ??1?$CTypedPtrArray@VCPtrArray@@PAVCMapCell@@@@UAE@XZ 10004eb0 f i SM_MapManager.obj
+ 0001:00003ef0       ??0?$CTypedPtrArray@VCPtrArray@@PAVCSpriteUnit@@@@QAE@XZ 10004ef0 f i SM_MapManager.obj
+ 0001:00003f40       ??1?$CTypedPtrArray@VCPtrArray@@PAVCSpriteUnit@@@@UAE@XZ 10004f40 f i SM_MapManager.obj
+ 0001:00003f80       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCPoint@@@@UAEPAXI@Z 10004f80 f i SM_MapManager.obj
+ 0001:00003f80       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCPoint@@@@UAEPAXI@Z 10004f80 f i SM_MapManager.obj
+ 0001:00003fd0       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCSgrRes@@@@UAEPAXI@Z 10004fd0 f i SM_MapManager.obj
+ 0001:00003fd0       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCSgrRes@@@@UAEPAXI@Z 10004fd0 f i SM_MapManager.obj
+ 0001:00004020       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCMapCell@@@@UAEPAXI@Z 10005020 f i SM_MapManager.obj
+ 0001:00004020       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCMapCell@@@@UAEPAXI@Z 10005020 f i SM_MapManager.obj
+ 0001:00004070       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCSpriteUnit@@@@UAEPAXI@Z 10005070 f i SM_MapManager.obj
+ 0001:00004070       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCSpriteUnit@@@@UAEPAXI@Z 10005070 f i SM_MapManager.obj
+ 0001:000040c0       ??1SM_MapManager@@UAE@XZ   100050c0 f   SM_MapManager.obj
+ 0001:000041c0       ?GetSgrRes@SM_MapManager@@QAEPAVCSgrRes@@H@Z 100051c0 f   SM_MapManager.obj
+ 0001:00004210       ?LoadSgr@SM_MapManager@@QAEHH@Z 10005210 f   SM_MapManager.obj
+ 0001:00004390       ?GetSgrFileName@SM_MapManager@@QAE?AVCString@@H@Z 10005390 f   SM_MapManager.obj
+ 0001:00004490       ?LoadMap@SM_MapManager@@QAEHVCString@@H@Z 10005490 f   SM_MapManager.obj
+ 0001:000045b0       ?LoadSpriteUnit@SM_MapManager@@IAEHAAVCArchive@@@Z 100055b0 f   SM_MapManager.obj
+ 0001:00004760       ?InitializeSgrs@SM_MapManager@@IAEHAAV?$CList@HH@@@Z 10005760 f   SM_MapManager.obj
+ 0001:000048b0       ?IsInSgrList@SM_MapManager@@IAEHAAV?$CList@HH@@H@Z 100058b0 f   SM_MapManager.obj
+ 0001:00004920       ?RemoveMapCellData@SM_MapManager@@IAEXXZ 10005920 f   SM_MapManager.obj
+ 0001:000049f0       ?RemoveSpriteUnit@SM_MapManager@@IAEXXZ 100059f0 f   SM_MapManager.obj
+ 0001:00004ad0       ?SetMapDimension@SM_MapManager@@IAEXVCSize@@@Z 10005ad0 f   SM_MapManager.obj
+ 0001:00004b80       ?InitManager@SM_MapManager@@QAEXPAVCDirectDraw@@PAUHWND__@@@Z 10005b80 f   SM_MapManager.obj
+ 0001:00004c20       ?EndManager@SM_MapManager@@QAEXXZ 10005c20 f   SM_MapManager.obj
+ 0001:00004ef0       ?DrawTile@SM_MapManager@@QAE?AVCPoint@@PAVCDDSurface@@@Z 10005ef0 f   SM_MapManager.obj
+ 0001:00005090       ?DrawAllSprite@SM_MapManager@@QAEXPAVCDDSurface@@H@Z 10006090 f   SM_MapManager.obj
+ 0001:00005180       ?DrawPreSprite@SM_MapManager@@QAEXPAVCDDSurface@@@Z 10006180 f   SM_MapManager.obj
+ 0001:000052a0       ?DrawPostSprite@SM_MapManager@@QAEXPAVCDDSurface@@@Z 100062a0 f   SM_MapManager.obj
+ 0001:000053c0       ?DecidePrePostSprite@SM_MapManager@@QAEXXZ 100063c0 f   SM_MapManager.obj
+ 0001:000058c0       ?GetSpriteRect@CSpriteUnit@@QAEAAVCRect@@XZ 100068c0 f i SM_MapManager.obj
+ 0001:000058f0       ?GetSpriteWide@CSpriteUnit@@QAEHVCRect@@@Z 100068f0 f i SM_MapManager.obj
+ 0001:00005930       ?GetSpriteY@CSpriteUnit@@QAEHVCRect@@@Z 10006930 f i SM_MapManager.obj
+ 0001:00005960       ?IsPreCondition@SM_MapManager@@QAEHVCRect@@PAVCSpriteUnit@@@Z 10006960 f   SM_MapManager.obj
+ 0001:00005b10       ?IsPostCondition@SM_MapManager@@QAEHVCRect@@PAVCSpriteUnit@@@Z 10006b10 f   SM_MapManager.obj
+ 0001:00005cf0       ?SetCenterPos@SM_MapManager@@QAE?AVCPoint@@V2@@Z 10006cf0 f   SM_MapManager.obj
+ 0001:00005fc0       ?GetMapStartPos@SM_MapManager@@QAE?AVCPoint@@XZ 10006fc0 f   SM_MapManager.obj
+ 0001:00006050       ?IsAnimationTime@SM_MapManager@@IAEHH@Z 10007050 f   SM_MapManager.obj
+ 0001:000060f0       ?SetDarkLevel@SM_MapManager@@QAEHHH@Z 100070f0 f   SM_MapManager.obj
+ 0001:00006230       ?GetMoveableTable@SM_MapManager@@QAEPAPAEAAH0@Z 10007230 f   SM_MapManager.obj
+ 0001:000062a0       ?GetHouseTable@SM_MapManager@@QAEPAPAFAAH0@Z 100072a0 f   SM_MapManager.obj
+ 0001:00006310       ?PixelToCell@SM_MapManager@@QAE?AVCPoint@@V2@@Z 10007310 f   SM_MapManager.obj
+ 0001:00006480       ?CellToPixel@SM_MapManager@@QAE?AVCPoint@@V2@@Z 10007480 f   SM_MapManager.obj
+ 0001:00006500       ?LoadSmf@SM_MapManager@@QAEHVCString@@H@Z 10007500 f   SM_MapManager.obj
+ 0001:00006720       ?LoadImf@SM_MapManager@@QAEHVCString@@H@Z 10007720 f   SM_MapManager.obj
+ 0001:00007020       ?GetMapDimension@SM_MapManager@@QAE?AVCSize@@XZ 10008020 f   SM_MapManager.obj
+ 0001:00007090       ?IsHidden@SM_MapManager@@QAEHVCPoint@@@Z 10008090 f   SM_MapManager.obj
+ 0001:000070f0       ?IsHouse@SM_MapManager@@QAEHVCPoint@@@Z 100080f0 f   SM_MapManager.obj
+ 0001:00007160       ?SetUserPos@SM_MapManager@@QAEXVCPoint@@H@Z 10008160 f   SM_MapManager.obj
+ 0001:000071b0       ?ShowMapType@SM_MapManager@@QAEXH@Z 100081b0 f   SM_MapManager.obj
+ 0001:000071e0       ?GetAreaNumber@SM_MapManager@@QAEEVCPoint@@@Z 100081e0 f   SM_MapManager.obj
+ 0001:00007240       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCSgrRes@@@@QAEXHPAVCSgrRes@@@Z 10008240 f i SM_MapManager.obj
+ 0001:00007280       ??A?$CTypedPtrArray@VCPtrArray@@PAVCSgrRes@@@@QAEAAPAVCSgrRes@@H@Z 10008280 f i SM_MapManager.obj
+ 0001:000072c0       ??A?$CTypedPtrArray@VCPtrArray@@PAVCMapCell@@@@QAEAAPAVCMapCell@@H@Z 100082c0 f i SM_MapManager.obj
+ 0001:00007300       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCSpriteUnit@@@@QBEPAVCSpriteUnit@@H@Z 10008300 f i SM_MapManager.obj
+ 0001:00007340       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCSpriteUnit@@@@QAEXHPAVCSpriteUnit@@@Z 10008340 f i SM_MapManager.obj
+ 0001:00007380       ?GetHeadPosition@?$CList@HH@@QBEPAU__POSITION@@XZ 10008380 f i SM_MapManager.obj
+ 0001:000073b0       ?GetNext@?$CList@HH@@QAEAAHAAPAU__POSITION@@@Z 100083b0 f i SM_MapManager.obj
+ 0001:00007430       ?GetMask@CAlphaProcess@@QAEPAVCAlphaMask@@XZ 10008430 f i Sprite.obj
+ 0001:00007460       ??0CAlphaProcess@@QAE@ABV0@@Z 10008460 f i Sprite.obj
+ 0001:000074a0       ??4CAlphaProcess@@QAEAAV0@ABV0@@Z 100084a0 f i Sprite.obj
+ 0001:000074e0       ??_GCAlphaProcess@@UAEPAXI@Z 100084e0 f i Sprite.obj
+ 0001:00007540       ??_ECAlphaProcess@@UAEPAXI@Z 10008540 f i Sprite.obj
+ 0001:000075e0       ??0CSprite@@QAE@XZ         100085e0 f   Sprite.obj
+ 0001:000076d0       ??_ECSprite@@UAEPAXI@Z     100086d0 f i Sprite.obj
+ 0001:000076d0       ??_GCSprite@@UAEPAXI@Z     100086d0 f i Sprite.obj
+ 0001:00007730       ??0?$CTypedPtrArray@VCPtrArray@@PAVCTileSurface@@@@QAE@XZ 10008730 f i Sprite.obj
+ 0001:00007780       ??1?$CTypedPtrArray@VCPtrArray@@PAVCTileSurface@@@@UAE@XZ 10008780 f i Sprite.obj
+ 0001:000077c0       ??0?$CTypedPtrArray@VCPtrArray@@PAVCDDSurface@@@@QAE@XZ 100087c0 f i Sprite.obj
+ 0001:00007810       ??1?$CTypedPtrArray@VCPtrArray@@PAVCDDSurface@@@@UAE@XZ 10008810 f i Sprite.obj
+ 0001:00007850       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCTileSurface@@@@UAEPAXI@Z 10008850 f i Sprite.obj
+ 0001:00007850       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCTileSurface@@@@UAEPAXI@Z 10008850 f i Sprite.obj
+ 0001:000078a0       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCDDSurface@@@@UAEPAXI@Z 100088a0 f i Sprite.obj
+ 0001:000078a0       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCDDSurface@@@@UAEPAXI@Z 100088a0 f i Sprite.obj
+ 0001:000078f0       ??1CSprite@@UAE@XZ         100088f0 f   Sprite.obj
+ 0001:00007990       ?Load@CSprite@@QAEHAAVCArchive@@@Z 10008990 f   Sprite.obj
+ 0001:00007c30       ?RemoveAllData@CSprite@@QAEXXZ 10008c30 f   Sprite.obj
+ 0001:00007d70       ?LoadSpriteAttr@CSprite@@QAEXAAVCArchive@@@Z 10008d70 f   Sprite.obj
+ 0001:000080d0       ??0SPRITECELL@@QAE@XZ      100090d0 f i Sprite.obj
+ 0001:00008120       ?Draw@CSprite@@QAEXPAVCDDSurface@@VCPoint@@11HH@Z 10009120 f   Sprite.obj
+ 0001:00008310       ?FillApCDDSurface@CSprite@@QAEXXZ 10009310 f   Sprite.obj
+ 0001:000083b0       ?GetSurface@CTileSurface@@QAEPAVCDDSurface@@XZ 100093b0 f i Sprite.obj
+ 0001:000083e0       ?DarkenProcess@CSprite@@QAEXK@Z 100093e0 f   Sprite.obj
+ 0001:00008480       ?GetMovable@CSprite@@QAEHHH@Z 10009480 f   Sprite.obj
+ 0001:00008530       ?GetLayer@CSprite@@QAEHHH@Z 10009530 f   Sprite.obj
+ 0001:000085e0       ?GetHideCharacter@CSprite@@QAEHHH@Z 100095e0 f   Sprite.obj
+ 0001:00008690       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTileSurface@@@@QAEXHPAVCTileSurface@@@Z 10009690 f i Sprite.obj
+ 0001:000086d0       ??A?$CTypedPtrArray@VCPtrArray@@PAVCTileSurface@@@@QAEAAPAVCTileSurface@@H@Z 100096d0 f i Sprite.obj
+ 0001:00008710       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCDDSurface@@@@QBEPAVCDDSurface@@H@Z 10009710 f i Sprite.obj
+ 0001:00008750       ??A?$CTypedPtrArray@VCPtrArray@@PAVCDDSurface@@@@QAEAAPAVCDDSurface@@H@Z 10009750 f i Sprite.obj
+ 0001:00008790       ??0CSpriteUnit@@QAE@XZ     10009790 f   SpriteUnit.obj
+ 0001:00008830       ??_GCSpriteUnit@@UAEPAXI@Z 10009830 f i SpriteUnit.obj
+ 0001:00008830       ??_ECSpriteUnit@@UAEPAXI@Z 10009830 f i SpriteUnit.obj
+ 0001:00008890       ??1CSpriteUnit@@UAE@XZ     10009890 f   SpriteUnit.obj
+ 0001:000088c0       ?Load@CSpriteUnit@@QAEHAAVCArchive@@H@Z 100098c0 f   SpriteUnit.obj
+ 0001:00008b70       ?GetApSprite@CSgrRes@@QAEAAV?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@XZ 10009b70 f i SpriteUnit.obj
+ 0001:00008ba0       ?Draw@CSpriteUnit@@QAEXVCRect@@VCPoint@@1PAVCDDSurface@@H@Z 10009ba0 f   SpriteUnit.obj
+ 0001:00008c30       ?RotateAnimation@CSpriteUnit@@QAEXXZ 10009c30 f   SpriteUnit.obj
+ 0001:00008c90       ?GetAnimationNum@CSprite@@QAEHXZ 10009c90 f i SpriteUnit.obj
+ 0001:00008cc0       ?IsPosBehindSprite@CSpriteUnit@@QAEHHH@Z 10009cc0 f   SpriteUnit.obj
+ 0001:00008d60       ?IsPosBehindSprite2@CSpriteUnit@@QAEHHH@Z 10009d60 f   SpriteUnit.obj
+ 0001:00008e30       ??0CTile@@QAE@XZ           10009e30 f   Tile.obj
+ 0001:00008ed0       ??_ECTile@@UAEPAXI@Z       10009ed0 f i Tile.obj
+ 0001:00008ed0       ??_GCTile@@UAEPAXI@Z       10009ed0 f i Tile.obj
+ 0001:00008f30       ??0?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@QAE@XZ 10009f30 f i Tile.obj
+ 0001:00008f80       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@UAEPAXI@Z 10009f80 f i Tile.obj
+ 0001:00008f80       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@UAEPAXI@Z 10009f80 f i Tile.obj
+ 0001:00008fd0       ??1?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@UAE@XZ 10009fd0 f i Tile.obj
+ 0001:00009010       ??1CTile@@UAE@XZ           1000a010 f   Tile.obj
+ 0001:000090b0       ?Load@CTile@@QAEHAAVCArchive@@@Z 1000a0b0 f   Tile.obj
+ 0001:00009300       ?RemoveAllData@CTile@@IAEXXZ 1000a300 f   Tile.obj
+ 0001:00009400       ?DarkenProcess@CTile@@QAEXK@Z 1000a400 f   Tile.obj
+ 0001:00009490       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@QBEPAVCTileGroup@@H@Z 1000a490 f i Tile.obj
+ 0001:000094d0       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@QAEXHPAVCTileGroup@@@Z 1000a4d0 f i Tile.obj
+ 0001:00009510       ??A?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@QAEAAPAVCTileGroup@@H@Z 1000a510 f i Tile.obj
+ 0001:00009550       ??0CTileGroup@@QAE@XZ      1000a550 f   TileGroup.obj
+ 0001:000095a0       ??_ECTileGroup@@UAEPAXI@Z  1000a5a0 f i TileGroup.obj
+ 0001:000095a0       ??_GCTileGroup@@UAEPAXI@Z  1000a5a0 f i TileGroup.obj
+ 0001:00009600       ??0?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@QAE@XZ 1000a600 f i TileGroup.obj
+ 0001:00009650       ??_E?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@UAEPAXI@Z 1000a650 f i TileGroup.obj
+ 0001:00009650       ??_G?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@UAEPAXI@Z 1000a650 f i TileGroup.obj
+ 0001:000096a0       ??1?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@UAE@XZ 1000a6a0 f i TileGroup.obj
+ 0001:000096e0       ??1CTileGroup@@UAE@XZ      1000a6e0 f   TileGroup.obj
+ 0001:00009760       ?Load@CTileGroup@@QAEHAAVCArchive@@PAEK@Z 1000a760 f   TileGroup.obj
+ 0001:000098e0       ?RemoveAllData@CTileGroup@@IAEXXZ 1000a8e0 f   TileGroup.obj
+ 0001:000099a0       ?DarkenProcess@CTileGroup@@QAEXK@Z 1000a9a0 f   TileGroup.obj
+ 0001:00009a30       ?GetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@QBEPAVCTileVary@@H@Z 1000aa30 f i TileGroup.obj
+ 0001:00009a70       ?SetAt@?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@QAEXHPAVCTileVary@@@Z 1000aa70 f i TileGroup.obj
+ 0001:00009ab0       ??A?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@QAEAAPAVCTileVary@@H@Z 1000aab0 f i TileGroup.obj
+ 0001:00009af0       ??0CTilePiece@@QAE@XZ      1000aaf0 f   TilePiece.obj
+ 0001:00009b80       ??_GCTilePiece@@UAEPAXI@Z  1000ab80 f i TilePiece.obj
+ 0001:00009b80       ??_ECTilePiece@@UAEPAXI@Z  1000ab80 f i TilePiece.obj
+ 0001:00009be0       ??1CTilePiece@@UAE@XZ      1000abe0 f   TilePiece.obj
+ 0001:00009c70       ?Load@CTilePiece@@QAEHAAVCArchive@@PAEK@Z 1000ac70 f   TilePiece.obj
+ 0001:00009df0       ?RemoveAllData@CTilePiece@@IAEXXZ 1000adf0 f   TilePiece.obj
+ 0001:00009ec0       ?FillApCDDSurface@CTilePiece@@IAEXXZ 1000aec0 f   TilePiece.obj
+ 0001:00009f60       ?Draw@CTilePiece@@QAEXPAVCDDSurface@@AAVCPoint@@H@Z 1000af60 f   TilePiece.obj
+ 0001:0000a0e0       ?DarkenProcess@CTilePiece@@QAEXK@Z 1000b0e0 f   TilePiece.obj
+ 0001:0000a170       ??0CTileSurface@@QAE@XZ    1000b170 f   TileSurface.obj
+ 0001:0000a1b0       ??_ECTileSurface@@UAEPAXI@Z 1000b1b0 f i TileSurface.obj
+ 0001:0000a1b0       ??_GCTileSurface@@UAEPAXI@Z 1000b1b0 f i TileSurface.obj
+ 0001:0000a210       ??1CTileSurface@@UAE@XZ    1000b210 f   TileSurface.obj
+ 0001:0000a250       ?Load@CTileSurface@@QAEHAAVCArchive@@PAEK@Z 1000b250 f   TileSurface.obj
+ 0001:0000a320       ?Load@CTileSurface@@QAEHAAVCArchive@@@Z 1000b320 f   TileSurface.obj
+ 0001:0000a450       ?RemoveAllData@CTileSurface@@IAEXXZ 1000b450 f   TileSurface.obj
+ 0001:0000a4d0       ?CreateSurfaceFromMemFile@CTileSurface@@IAEPAVCDDSurface@@PAE@Z 1000b4d0 f   TileSurface.obj
+ 0001:0000a670       ??0CTileVary@@QAE@XZ       1000b670 f   TileVary.obj
+ 0001:0000a6c0       ??_ECTileVary@@UAEPAXI@Z   1000b6c0 f i TileVary.obj
+ 0001:0000a6c0       ??_GCTileVary@@UAEPAXI@Z   1000b6c0 f i TileVary.obj
+ 0001:0000a720       ??1CTileVary@@UAE@XZ       1000b720 f   TileVary.obj
+ 0001:0000a7a0       ?Load@CTileVary@@QAEHAAVCArchive@@HPAEK@Z 1000b7a0 f   TileVary.obj
+ 0001:0000a910       ?RemoveAllData@CTileVary@@IAEXXZ 1000b910 f   TileVary.obj
+ 0001:0000a9d0       ?DarkenProcess@CTileVary@@QAEXK@Z 1000b9d0 f   TileVary.obj
+ 0001:0000aa60       ??A?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@QAEAAPAVCTilePiece@@H@Z 1000ba60 f i TileVary.obj
+ 0001:0000aa9c       _DDColorMatch              1000ba9c f   dmanage:DManage.dll
+ 0001:0000aaa2       ?_SetMode@CDirectDraw@@QAEHPAUHWND__@@HHHH@Z 1000baa2 f   dmanage:DManage.dll
+ 0001:0000aaa8       ?GetExecutionPath@CDirectDraw@@SA?AVCString@@H@Z 1000baa8 f   dmanage:DManage.dll
+ 0001:0000aaae       ??1CAlphaProcess@@UAE@XZ   1000baae f   dmanage:DManage.dll
+ 0001:0000aab4       ?BltFast@CDDSurface@@QAEHVCPoint@@PAV1@PAVCRect@@K@Z 1000bab4 f   dmanage:DManage.dll
+ 0001:0000aaba       ?MixHalf@CAlphaProcess@@SAHPAVCDDSurface@@VCRect@@01@Z 1000baba f   dmanage:DManage.dll
+ 0001:0000aac0       ?DrawFogLayer@CDDSurface@@QAEXPAVCRect@@KH@Z 1000bac0 f   dmanage:DManage.dll
+ 0001:0000aac6       ?SetColorKey@CDDSurface@@QAEHK@Z 1000bac6 f   dmanage:DManage.dll
+ 0001:0000aacc       ?ReleaseDC@CDDSurface@@QAEXPAVCDC@@@Z 1000bacc f   dmanage:DManage.dll
+ 0001:0000aad2       ?GetDC@CDDSurface@@QAEPAVCDC@@XZ 1000bad2 f   dmanage:DManage.dll
+ 0001:0000aad8       ?Create@CDDSurface@@QAEHPAVCDirectDraw@@HHH@Z 1000bad8 f   dmanage:DManage.dll
+ 0001:0000aade       ??0CDDSurface@@QAE@XZ      1000bade f   dmanage:DManage.dll
+ 0001:0000aae4       ??1CString@@QAE@XZ         1000bae4 f   mfc42d:MFC42D.DLL
+ 0001:0000aaea       ??0CSize@@QAE@XZ           1000baea f   mfc42d:MFC42D.DLL
+ 0001:0000aaf0       ??0CString@@QAE@XZ         1000baf0 f   mfc42d:MFC42D.DLL
+ 0001:0000aaf6       ??3@YAXPAX@Z               1000baf6 f   mfc42d:MFC42D.DLL
+ 0001:0000aafc       ?Dump@CPtrArray@@UBEXAAVCDumpContext@@@Z 1000bafc f   mfc42d:MFC42D.DLL
+ 0001:0000ab02       ?AssertValid@CPtrArray@@UBEXXZ 1000bb02 f   mfc42d:MFC42D.DLL
+ 0001:0000ab08       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 1000bb08 f   mfc42d:MFC42D.DLL
+ 0001:0000ab0e       ?GetRuntimeClass@CPtrArray@@UBEPAUCRuntimeClass@@XZ 1000bb0e f   mfc42d:MFC42D.DLL
+ 0001:0000ab14       ??0CPtrArray@@QAE@XZ       1000bb14 f   mfc42d:MFC42D.DLL
+ 0001:0000ab1a       ??3CObject@@SGXPAX@Z       1000bb1a f   mfc42d:MFC42D.DLL
+ 0001:0000ab20       ??1CPtrArray@@UAE@XZ       1000bb20 f   mfc42d:MFC42D.DLL
+ 0001:0000ab26       ??3@YAXPAXPBDH@Z           1000bb26 f   mfc42d:MFC42D.DLL
+ 0001:0000ab2c       ?SetSize@CPtrArray@@QAEXHH@Z 1000bb2c f   mfc42d:MFC42D.DLL
+ 0001:0000ab32       ??2@YAPAXIPBDH@Z           1000bb32 f   mfc42d:MFC42D.DLL
+ 0001:0000ab38       ??5CArchive@@QAEAAV0@AAK@Z 1000bb38 f   mfc42d:MFC42D.DLL
+ 0001:0000ab3e       ??5CArchive@@QAEAAV0@AAJ@Z 1000bb3e f   mfc42d:MFC42D.DLL
+ 0001:0000ab44       ?ReleaseBuffer@CString@@QAEXH@Z 1000bb44 f   mfc42d:MFC42D.DLL
+ 0001:0000ab4a       ?Read@CArchive@@QAEIPAXI@Z 1000bb4a f   mfc42d:MFC42D.DLL
+ 0001:0000ab50       ?GetBufferSetLength@CString@@QAEPADH@Z 1000bb50 f   mfc42d:MFC42D.DLL
+ 0001:0000ab56       ??5CArchive@@QAEAAV0@AAH@Z 1000bb56 f   mfc42d:MFC42D.DLL
+ 0001:0000ab5c       ?RemoveAll@CPtrArray@@QAEXXZ 1000bb5c f   mfc42d:MFC42D.DLL
+ 0001:0000ab62       ?GetSize@CPtrArray@@QBEHXZ 1000bb62 f   mfc42d:MFC42D.DLL
+ 0001:0000ab68       ?Empty@CString@@QAEXXZ     1000bb68 f   mfc42d:MFC42D.DLL
+ 0001:0000ab6e       ?SetAt@CPtrArray@@QAEXHPAX@Z 1000bb6e f   mfc42d:MFC42D.DLL
+ 0001:0000ab74       ??ACPtrArray@@QAEAAPAXH@Z  1000bb74 f   mfc42d:MFC42D.DLL
+ 0001:0000ab7a       ??3CObject@@SGXPAXPBDH@Z   1000bb7a f   mfc42d:MFC42D.DLL
+ 0001:0000ab80       ??2CObject@@SGPAXIPBDH@Z   1000bb80 f   mfc42d:MFC42D.DLL
+ 0001:0000ab86       ?GetAt@CPtrArray@@QBEPAXH@Z 1000bb86 f   mfc42d:MFC42D.DLL
+ 0001:0000ab8c       ?AfxMessageBox@@YGHPBDII@Z 1000bb8c f   mfc42d:MFC42D.DLL
+ 0001:0000ab92       ?ReadHuge@CFile@@QAEKPAXK@Z 1000bb92 f   mfc42d:MFC42D.DLL
+ 0001:0000ab98       ?Read@CFile@@UAEIPAXI@Z    1000bb98 f   mfc42d:MFC42D.DLL
+ 0001:0000ab9e       ?GetLength@CFile@@UBEKXZ   1000bb9e f   mfc42d:MFC42D.DLL
+ 0001:0000aba4       ??1CFile@@UAE@XZ           1000bba4 f   mfc42d:MFC42D.DLL
+ 0001:0000abaa       ?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 1000bbaa f   mfc42d:MFC42D.DLL
+ 0001:0000abb0       ??BCString@@QBEPBDXZ       1000bbb0 f   mfc42d:MFC42D.DLL
+ 0001:0000abb6       ??0CFile@@QAE@XZ           1000bbb6 f   mfc42d:MFC42D.DLL
+ 0001:0000abbc       ?IsEmpty@CString@@QBEHXZ   1000bbbc f   mfc42d:MFC42D.DLL
+ 0001:0000abc2       ?GetSafeHdc@CDC@@QBEPAUHDC__@@XZ 1000bbc2 f   mfc42d:MFC42D.DLL
+ 0001:0000abc8       ?SetStretchBltMode@CDC@@QAEHH@Z 1000bbc8 f   mfc42d:MFC42D.DLL
+ 0001:0000abce       ??1CDC@@UAE@XZ             1000bbce f   mfc42d:MFC42D.DLL
+ 0001:0000abd4       ??1CBitmap@@UAE@XZ         1000bbd4 f   mfc42d:MFC42D.DLL
+ 0001:0000abda       ?SetTextColor@CDC@@UAEKK@Z 1000bbda f   mfc42d:MFC42D.DLL
+ 0001:0000abe0       ?BitBlt@CDC@@QAEHHHHHPAV1@HHK@Z 1000bbe0 f   mfc42d:MFC42D.DLL
+ 0001:0000abe6       ?SetBkColor@CDC@@UAEKK@Z   1000bbe6 f   mfc42d:MFC42D.DLL
+ 0001:0000abec       ?CreateBitmap@CBitmap@@QAEHHHIIPBX@Z 1000bbec f   mfc42d:MFC42D.DLL
+ 0001:0000abf2       ?SelectObject@CDC@@QAEPAVCBitmap@@PAV2@@Z 1000bbf2 f   mfc42d:MFC42D.DLL
+ 0001:0000abf8       ?CreateCompatibleBitmap@CBitmap@@QAEHPAVCDC@@HH@Z 1000bbf8 f   mfc42d:MFC42D.DLL
+ 0001:0000abfe       ??0CBitmap@@QAE@XZ         1000bbfe f   mfc42d:MFC42D.DLL
+ 0001:0000ac04       ?CreateCompatibleDC@CDC@@QAEHPAV1@@Z 1000bc04 f   mfc42d:MFC42D.DLL
+ 0001:0000ac0a       ??0CDC@@QAE@XZ             1000bc0a f   mfc42d:MFC42D.DLL
+ 0001:0000ac10       ?Write@CArchive@@QAEXPBXI@Z 1000bc10 f   mfc42d:MFC42D.DLL
+ 0001:0000ac16       ?AfxAssertFailedLine@@YGHPBDH@Z 1000bc16 f   mfc42d:MFC42D.DLL
+ 0001:0000ac1c       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000bc1c f   mfc42d:MFC42D.DLL
+ 0001:0000ac22       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000bc22 f   mfc42d:MFC42D.DLL
+ 0001:0000ac28       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000bc28 f   mfc42d:MFC42D.DLL
+ 0001:0000ac2e       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000bc2e f   mfc42d:MFC42D.DLL
+ 0001:0000ac34       ?AfxTrace@@YAXPBDZZ        1000bc34 f   mfc42d:MFC42D.DLL
+ 0001:0000ac3a       ??1CArchive@@QAE@XZ        1000bc3a f   mfc42d:MFC42D.DLL
+ 0001:0000ac40       ??4CString@@QAEABV0@ABV0@@Z 1000bc40 f   mfc42d:MFC42D.DLL
+ 0001:0000ac46       ?Close@CFile@@UAEXXZ       1000bc46 f   mfc42d:MFC42D.DLL
+ 0001:0000ac4c       ?Close@CArchive@@QAEXXZ    1000bc4c f   mfc42d:MFC42D.DLL
+ 0001:0000ac52       ??0CArchive@@QAE@PAVCFile@@IHPAX@Z 1000bc52 f   mfc42d:MFC42D.DLL
+ 0001:0000ac58       ??0CString@@QAE@ABV0@@Z    1000bc58 f   mfc42d:MFC42D.DLL
+ 0001:0000ac5e       ??0CPoint@@QAE@XZ          1000bc5e f   mfc42d:MFC42D.DLL
+ 0001:0000ac64       ??YCString@@QAEABV0@ABV0@@Z 1000bc64 f   mfc42d:MFC42D.DLL
+ 0001:0000ac6a       ?Format@CString@@QAAXPBDZZ 1000bc6a f   mfc42d:MFC42D.DLL
+ 0001:0000ac70       ?OffsetRect@CRect@@QAEXHH@Z 1000bc70 f   mfc42d:MFC42D.DLL
+ 0001:0000ac76       ??0CRect@@QAE@HHHH@Z       1000bc76 f   mfc42d:MFC42D.DLL
+ 0001:0000ac7c       ?IntersectRect@CRect@@QAEHPBUtagRECT@@0@Z 1000bc7c f   mfc42d:MFC42D.DLL
+ 0001:0000ac82       ??BCRect@@QAEPAUtagRECT@@XZ 1000bc82 f   mfc42d:MFC42D.DLL
+ 0001:0000ac88       ??0CRect@@QAE@XZ           1000bc88 f   mfc42d:MFC42D.DLL
+ 0001:0000ac8e       ??5CArchive@@QAEAAV0@AAF@Z 1000bc8e f   mfc42d:MFC42D.DLL
+ 0001:0000ac94       ?AfxIsValidAddress@@YGHPBXIH@Z 1000bc94 f   mfc42d:MFC42D.DLL
+ 0001:0000ac9a       ??5@YGAAVCArchive@@AAV0@AAUtagPOINT@@@Z 1000bc9a f   mfc42d:MFC42D.DLL
+ 0001:0000aca0       ??5@YGAAVCArchive@@AAV0@AAUtagSIZE@@@Z 1000bca0 f   mfc42d:MFC42D.DLL
+ 0001:0000aca6       ??5CArchive@@QAEAAV0@AAD@Z 1000bca6 f   mfc42d:MFC42D.DLL
+ 0001:0000acac       ??5CArchive@@QAEAAV0@AAE@Z 1000bcac f   mfc42d:MFC42D.DLL
+ 0001:0000acb2       ?GetBuffer@CString@@QAEPADH@Z 1000bcb2 f   mfc42d:MFC42D.DLL
+ 0001:0000acb8       ?IsRectEmpty@CRect@@QBEHXZ 1000bcb8 f   mfc42d:MFC42D.DLL
+ 0001:0000acbe       ??_4CRect@@QAEXABUtagRECT@@@Z 1000bcbe f   mfc42d:MFC42D.DLL
+ 0001:0000acc4       ?OffsetRect@CRect@@QAEXUtagPOINT@@@Z 1000bcc4 f   mfc42d:MFC42D.DLL
+ 0001:0000acca       ?SetRect@CRect@@QAEXHHHH@Z 1000bcca f   mfc42d:MFC42D.DLL
+ 0001:0000acd0       ?Compare@CString@@QBEHPBD@Z 1000bcd0 f   mfc42d:MFC42D.DLL
+ 0001:0000acd6       ??5@YGAAVCArchive@@AAV0@AAVCString@@@Z 1000bcd6 f   mfc42d:MFC42D.DLL
+ 0001:0000acdc       ?Height@CRect@@QBEHXZ      1000bcdc f   mfc42d:MFC42D.DLL
+ 0001:0000ace2       ?Width@CRect@@QBEHXZ       1000bce2 f   mfc42d:MFC42D.DLL
+ 0001:0000ace8       ??0CRect@@QAE@UtagPOINT@@UtagSIZE@@@Z 1000bce8 f   mfc42d:MFC42D.DLL
+ 0001:0000acee       ??0CSize@@QAE@HH@Z         1000bcee f   mfc42d:MFC42D.DLL
+ 0001:0000acf4       ___CxxFrameHandler         1000bcf4 f   msvcrtd:MSVCRTD.dll
+ 0001:0000acfa       __chkesp                   1000bcfa f   msvcrtd:MSVCRTD.dll
+ 0001:0000ad00       _abs                       1000bd00 f   msvcrtd:MSVCRTD.dll
+ 0001:0000ad06       _memcpy                    1000bd06 f   msvcrtd:MSVCRTD.dll
+ 0001:0000ad10       ??_M@YGXPAXIHP6EX0@Z@Z     1000bd10 f   msvcrtd:ehvecdtr.obj
+ 0001:0000adc0       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000bdc0 f   msvcrtd:ehvecdtr.obj
+ 0001:0000ae6c       _ceil                      1000be6c f   msvcrtd:MSVCRTD.dll
+ 0001:0000ae72       __ftol                     1000be72 f   msvcrtd:MSVCRTD.dll
+ 0001:0000ae78       _memset                    1000be78 f   msvcrtd:MSVCRTD.dll
+ 0001:0000ae80       __CRT_INIT@12              1000be80 f   msvcrtd:crtdll.obj
+ 0001:0000af90       __DllMainCRTStartup@12     1000bf90 f   msvcrtd:crtdll.obj
+ 0001:0000b084       __except_handler3          1000c084 f   msvcrtd:MSVCRTD.dll
+ 0001:0000b08a       ?terminate@@YAXXZ          1000c08a f   msvcrtd:MSVCRTD.dll
+ 0001:0000b090       __free_dbg                 1000c090 f   msvcrtd:MSVCRTD.dll
+ 0001:0000b096       __initterm                 1000c096 f   msvcrtd:MSVCRTD.dll
+ 0001:0000b0a0       __onexit                   1000c0a0 f   msvcrtd:atonexit.obj
+ 0001:0000b0e0       _atexit                    1000c0e0 f   msvcrtd:atonexit.obj
+ 0001:0000b0f8       __malloc_dbg               1000c0f8 f   msvcrtd:MSVCRTD.dll
+ 0001:0000b0fe       ___dllonexit               1000c0fe f   msvcrtd:MSVCRTD.dll
+ 0001:0000b104       _GlobalFree@4              1000c104 f   kernel32:KERNEL32.dll
+ 0001:0000b10a       _GlobalUnlock@4            1000c10a f   kernel32:KERNEL32.dll
+ 0001:0000b110       _GlobalLock@4              1000c110 f   kernel32:KERNEL32.dll
+ 0001:0000b116       _GlobalAlloc@8             1000c116 f   kernel32:KERNEL32.dll
+ 0001:0000b11c       _MulDiv@12                 1000c11c f   kernel32:KERNEL32.dll
+ 0001:0000b122       _GetTickCount@0            1000c122 f   kernel32:KERNEL32.dll
+ 0001:0000b128       _StretchDIBits@52          1000c128 f   gdi32:GDI32.dll
+ 0001:0000b12e       _SetDIBitsToDevice@48      1000c12e f   gdi32:GDI32.dll
+ 0002:0000001c       ??_7CCustomTile@@6B@       1000d01c     CustomTile.obj
+ 0002:00000020       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCCustomTileVary@@@@6B@ 1000d020     CustomTile.obj
+ 0002:00000034       ??_7CCustomTileVary@@6B@   1000d034     CustomTileVary.obj
+ 0002:00000038       ??_7?$CTypedPtrArray@VCPtrArray@@PAV?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@@@6B@ 1000d038     CustomTileVary.obj
+ 0002:0000004c       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCTilePiece@@@@6B@ 1000d04c     CustomTileVary.obj
+ 0002:00000060       ??_7CDib@@6B@              1000d060     Dib.obj
+ 0002:00000064       ??_C@_0BN@MGFC@?$LB?W?$LI?$LC?$MA?$LK?5256?$LL?v?$LL?s?$LI?$LI?5?A?v?$LP?x?G?U?$LE?O?$LE?Y?4?$AA@ 1000d064     Dib.obj
+ 0002:00000084       ??_7CMapCell@@6B@          1000d084     MapCell.obj
+ 0002:00000088       ??_C@_0BN@CNNH@MAPMANAGER?4DLL?5Terminating?$CB?6?$AA@ 1000d088     MapManager.obj
+ 0002:000000a8       ??_C@_02DILL@?$CFs?$AA@    1000d0a8     MapManager.obj
+ 0002:000000ac       ??_C@_0BO@IJLG@MAPMANAGER?4DLL?5Initializing?$CB?6?$AA@ 1000d0ac     MapManager.obj
+ 0002:000000cc       ??_7CSgrRes@@6B@           1000d0cc     SgrRes.obj
+ 0002:000000d0       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCTile@@@@6B@ 1000d0d0     SgrRes.obj
+ 0002:000000e4       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCSprite@@@@6B@ 1000d0e4     SgrRes.obj
+ 0002:000000f8       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCCustomTile@@@@6B@ 1000d0f8     SgrRes.obj
+ 0002:0000010c       ??_C@_0O@JMPD@sgr?5res?5?$LD?$KB?4?4?6?$AA@ 1000d10c     SgrRes.obj
+ 0002:0000011c       ??_C@_0CE@OFOK@sgr?5res?5iCustomTileCount?5?$MA?P?$LB?b?$MA?$PM?4@ 1000d11c     SgrRes.obj
+ 0002:00000140       ??_C@_0CA@OJFF@sgr?5res?5iSpriteCount?5?$MA?P?$LB?b?$MA?$PM?4?4?4?6?$AA@ 1000d140     SgrRes.obj
+ 0002:00000160       ??_C@_0BA@FDDC@sgr?5res?5?$LN?C?$MA?$NL?4?4?6?$AA@ 1000d160     SgrRes.obj
+ 0002:00000170       ??_C@_0BN@NDLI@?A?v?A?$KE?G?Q?5?F?D?$MA?O?$MA?L?5?A?$LI?$MA?g?G?O?A?v?5?$LO?J?$MA?$LN?6?$AA@ 1000d170     SgrRes.obj
+ 0002:00000190       ??_C@_0BB@GOIB@SGR?5Reload?5?$LN?G?F?P?6?$AA@ 1000d190     SgrRes.obj
+ 0002:000001a4       ??_7SM_MapManager@@6B@     1000d1a4     SM_MapManager.obj
+ 0002:000001a8       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCPoint@@@@6B@ 1000d1a8     SM_MapManager.obj
+ 0002:000001bc       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCSgrRes@@@@6B@ 1000d1bc     SM_MapManager.obj
+ 0002:000001d0       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCMapCell@@@@6B@ 1000d1d0     SM_MapManager.obj
+ 0002:000001e4       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCSpriteUnit@@@@6B@ 1000d1e4     SM_MapManager.obj
+ 0002:000001f8       ??_C@_0BA@NCLC@SGRES?2SG?9?$CFd?4SGR?$AA@ 1000d1f8     SM_MapManager.obj
+ 0002:00000208       ??_C@_0BD@EDKN@iSpriteCount?5?$DN?5?$CFd?6?$AA@ 1000d208     SM_MapManager.obj
+ 0002:0000021c       ??_C@_0BA@BJG@sgr?5?F?D?$MA?O?5?E?k?$LA?z?4?4?$AA@ 1000d21c     SM_MapManager.obj
+ 0002:0000022c       ??_C@_0BA@FKKM@?$CFd?5Sgr?$LH?N?$LF?e?$LL?x?F?P?6?$AA@ 1000d22c     SM_MapManager.obj
+ 0002:0000023c       ??_C@_0CH@LEHL@?5?$LJ?$PM?$MA?$KH?$LI?$KG?5?$LJ?$PO?$LO?n?5?$LD?$LF?$LE?Y?4?4?5m_Spr_Y?5?E?$KJ?$LB?b@ 1000d23c     SM_MapManager.obj
+ 0002:00000268       __real@8@4003c000000000000000 1000d268     SM_MapManager.obj
+ 0002:00000270       __real@8@bffe8000000000000000 1000d270     SM_MapManager.obj
+ 0002:00000278       __real@8@3ffe8000000000000000 1000d278     SM_MapManager.obj
+ 0002:00000280       ??_C@_0BA@BANG@smf?5?F?D?$MA?O?5?E?k?$LA?z?4?4?$AA@ 1000d280     SM_MapManager.obj
+ 0002:00000290       ??_C@_0BJ@NLLC@?A?v?A?$KE?G?Q?5?F?D?$MA?O?5?$CFs?5Open?$LN?G?F?P?6?$AA@ 1000d290     SM_MapManager.obj
+ 0002:000002ac       ??_C@_0P@FMFL@?$CFsSGRES?2?$CFs?4smf?$AA@ 1000d2ac     SM_MapManager.obj
+ 0002:000002bc       ??_C@_04DJDA@test?$AA@     1000d2bc     SM_MapManager.obj
+ 0002:000002c4       ??_C@_0BA@KKJB@imf?5?F?D?$MA?O?5?E?k?$LA?z?4?4?$AA@ 1000d2c4     SM_MapManager.obj
+ 0002:000002d4       ??_C@_0N@GHNM@?$CFsMap?2?$CFs?4imf?$AA@ 1000d2d4     SM_MapManager.obj
+ 0002:000002e4       ??_C@_08DCBL@somamset?$AA@ 1000d2e4     SM_MapManager.obj
+ 0002:000002f0       ??_7CAlphaProcess@@6B@     1000d2f0     Sprite.obj
+ 0002:000002f4       ??_7CSprite@@6B@           1000d2f4     Sprite.obj
+ 0002:000002f8       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCTileSurface@@@@6B@ 1000d2f8     Sprite.obj
+ 0002:0000030c       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCDDSurface@@@@6B@ 1000d30c     Sprite.obj
+ 0002:00000320       ??_C@_0BG@DFHK@?$LK?$LI?H?$KD?D?Z?$LF?e?5?$LA?I?$LI?$LC?3?5Error?6?$AA@ 1000d320     Sprite.obj
+ 0002:00000338       ??_7CSpriteUnit@@6B@       1000d338     SpriteUnit.obj
+ 0002:0000033c       ??_7CTile@@6B@             1000d33c     Tile.obj
+ 0002:00000340       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCTileGroup@@@@6B@ 1000d340     Tile.obj
+ 0002:00000354       ??_7CTileGroup@@6B@        1000d354     TileGroup.obj
+ 0002:00000358       ??_7?$CTypedPtrArray@VCPtrArray@@PAVCTileVary@@@@6B@ 1000d358     TileGroup.obj
+ 0002:0000036c       ??_7CTilePiece@@6B@        1000d36c     TilePiece.obj
+ 0002:00000370       ??_7CTileSurface@@6B@      1000d370     TileSurface.obj
+ 0002:00000374       ??_7CTileVary@@6B@         1000d374     TileVary.obj
+ 0002:00000378       _IID_IDocHostUIHandlerDispatch 1000d378     mfcs42d:stdafx.obj
+ 0002:00000388       _IID_IInternalConnection   1000d388     mfcs42d:stdafx.obj
+ 0002:00000398       _IID_IAxWinAmbientDispatch 1000d398     mfcs42d:stdafx.obj
+ 0002:000003a8       _IID_IAxWinHostWindow      1000d3a8     mfcs42d:stdafx.obj
+ 0002:000003b8       _IID_IRegistrar            1000d3b8     mfcs42d:stdafx.obj
+ 0002:000003c8       _CLSID_Registrar           1000d3c8     mfcs42d:stdafx.obj
+ 0002:000003d8       _LIBID_ATLLib              1000d3d8     mfcs42d:stdafx.obj
+ 0002:00000404       ??_C@_08JKC@crtdll?4c?$AA@ 1000d404     msvcrtd:crtdll.obj
+ 0003:00000000       ___xc_a                    1000f000     msvcrtd:cinitexe.obj
+ 0003:00000004       ___xc_z                    1000f004     msvcrtd:cinitexe.obj
+ 0003:00000008       ___xi_a                    1000f008     msvcrtd:cinitexe.obj
+ 0003:0000000c       ___xi_z                    1000f00c     msvcrtd:cinitexe.obj
+ 0003:00000040       ?__LINE__Var@?1??Load@CCustomTile@@QAEHAAVCArchive@@@Z@4FA 1000f040     CustomTile.obj
+ 0003:00000078       ?__LINE__Var@?1??Load@CCustomTileVary@@QAEHAAVCArchive@@VCSize@@PAEK@Z@4FA 1000f078     CustomTileVary.obj
+ 0003:000000d0       ?__LINE__Var@?1???0CMapCell@@QAE@XZ@4FA 1000f0d0     MapCell.obj
+ 0003:000000d4       __pRawDllMain              1000f0d4     MapManager.obj
+ 0003:00000108       ?__LINE__Var@?1??DllMain@@9@12@4FA 1000f108     MapManager.obj
+ 0003:00000138       ?__LINE__Var@?1??Load@CSgrRes@@QAEHVCString@@@Z@4FA 1000f138     SgrRes.obj
+ 0003:00000178       ?g_vBitMask@@3PAEA         1000f178     SM_MapManager.obj
+ 0003:00000180       ?__LINE__Var@?1??LoadSgr@SM_MapManager@@QAEHH@Z@4FA 1000f180     SM_MapManager.obj
+ 0003:00000184       ?__LINE__Var@?1??GetSgrFileName@SM_MapManager@@QAE?AVCString@@H@Z@4FA 1000f184     SM_MapManager.obj
+ 0003:00000188       ?__LINE__Var@?1??LoadMap@SM_MapManager@@QAEHVCString@@H@Z@4FA 1000f188     SM_MapManager.obj
+ 0003:0000018c       ?__LINE__Var@?1??LoadSpriteUnit@SM_MapManager@@IAEHAAVCArchive@@@Z@4FA 1000f18c     SM_MapManager.obj
+ 0003:00000190       ?__LINE__Var@?1??IsPreCondition@SM_MapManager@@QAEHVCRect@@PAVCSpriteUnit@@@Z@4FA 1000f190     SM_MapManager.obj
+ 0003:00000194       ?__LINE__Var@?1??IsPostCondition@SM_MapManager@@QAEHVCRect@@PAVCSpriteUnit@@@Z@4FA 1000f194     SM_MapManager.obj
+ 0003:00000198       ?__LINE__Var@?1??LoadSmf@SM_MapManager@@QAEHVCString@@H@Z@4FA 1000f198     SM_MapManager.obj
+ 0003:0000019c       ?__LINE__Var@?1??LoadImf@SM_MapManager@@QAEHVCString@@H@Z@4FA 1000f19c     SM_MapManager.obj
+ 0003:000001cc       ?__LINE__Var@?1??Load@CSprite@@QAEHAAVCArchive@@@Z@4FA 1000f1cc     Sprite.obj
+ 0003:000001d0       ?__LINE__Var@?1??LoadSpriteAttr@CSprite@@QAEXAAVCArchive@@@Z@4FA 1000f1d0     Sprite.obj
+ 0003:000001d4       ?__LINE__Var@?1??Draw@CSprite@@QAEXPAVCDDSurface@@VCPoint@@11HH@Z@4FA 1000f1d4     Sprite.obj
+ 0003:000001d8       ?__LINE__Var@?1??GetMovable@CSprite@@QAEHHH@Z@4FA 1000f1d8     Sprite.obj
+ 0003:000001dc       ?__LINE__Var@?1??GetLayer@CSprite@@QAEHHH@Z@4FA 1000f1dc     Sprite.obj
+ 0003:000001e0       ?__LINE__Var@?1??GetHideCharacter@CSprite@@QAEHHH@Z@4FA 1000f1e0     Sprite.obj
+ 0003:00000214       ?__LINE__Var@?1??Load@CSpriteUnit@@QAEHAAVCArchive@@H@Z@4FA 1000f214     SpriteUnit.obj
+ 0003:0000024c       ?__LINE__Var@?1??Load@CTile@@QAEHAAVCArchive@@@Z@4FA 1000f24c     Tile.obj
+ 0003:0000027c       ?__LINE__Var@?1??Load@CTileGroup@@QAEHAAVCArchive@@PAEK@Z@4FA 1000f27c     TileGroup.obj
+ 0003:000002ac       ?__LINE__Var@?1??Load@CTilePiece@@QAEHAAVCArchive@@PAEK@Z@4FA 1000f2ac     TilePiece.obj
+ 0003:000002b0       ?__LINE__Var@?1??Draw@CTilePiece@@QAEXPAVCDDSurface@@AAVCPoint@@H@Z@4FA 1000f2b0     TilePiece.obj
+ 0003:000002e4       ?__LINE__Var@?1??Load@CTileSurface@@QAEHAAVCArchive@@PAEK@Z@4FA 1000f2e4     TileSurface.obj
+ 0003:000002e8       ?__LINE__Var@?1??Load@CTileSurface@@QAEHAAVCArchive@@@Z@4FA 1000f2e8     TileSurface.obj
+ 0003:000002ec       ?__LINE__Var@?1??CreateSurfaceFromMemFile@CTileSurface@@IAEPAVCDDSurface@@PAE@Z@4FA 1000f2ec     TileSurface.obj
+ 0003:0000031c       ?__LINE__Var@?1??Load@CTileVary@@QAEHAAVCArchive@@HPAEK@Z@4FA 1000f31c     TileVary.obj
+ 0003:00000320       ?GUID_ATLVer30@ATL@@3U_GUID@@A 1000f320     mfcs42d:stdafx.obj
+ 0003:00000330       ?m_bpMapManager@CMapCell@@2PAVSM_MapManager@@A 1000f330     MapCell.obj
+ 0003:00000338       __afxForceEXTDLL           1000f338     MapManager.obj
+ 0003:00000354       ?sm_bpDirectDraw@SM_MapManager@@2PAVCDirectDraw@@A 1000f354     SM_MapManager.obj
+ 0003:00000358       ?sm_bRelatedHwnd@SM_MapManager@@2PAUHWND__@@A 1000f358     SM_MapManager.obj
+ 0003:0000036c       ?m_bpMapManager@CSpriteUnit@@2PAVSM_MapManager@@A 1000f36c     SpriteUnit.obj
+ 0003:00000370       __afxForceEXCLUDE          1000f370     mfcs42d:nolib.obj
+ 0003:00000374       ?ATL_CREATE_OBJECT@CComApartment@ATL@@2IA 1000f374     mfcs42d:stdafx.obj
+ 0003:00000378       ?m_libid@CComModule@ATL@@2U_GUID@@A 1000f378     mfcs42d:stdafx.obj
+ 0003:00000388       ?_pModule@ATL@@3PAVCComModule@1@A 1000f388     mfcs42d:stdafx.obj
+ 0003:0000038c       __afxForceSTDAFX           1000f38c     mfcs42d:stdafx.obj
+ 0003:00000394       __adjust_fdiv              1000f394     <common>
+ 0003:00000398       ___onexitend               1000f398     <common>
+ 0003:0000039c       ___onexitbegin             1000f39c     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_DManage 10010000     dmanage:DManage.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_MFC42D 10010014     mfc42d:MFC42D.DLL
+ 0004:00000028       __IMPORT_DESCRIPTOR_MSVCRTD 10010028     msvcrtd:MSVCRTD.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_KERNEL32 1001003c     kernel32:KERNEL32.dll
+ 0004:00000050       __IMPORT_DESCRIPTOR_GDI32  10010050     gdi32:GDI32.dll
+ 0004:00000064       __NULL_IMPORT_DESCRIPTOR   10010064     dmanage:DManage.dll
+ 0004:00000278       __imp_?ReleaseDC@CDDSurface@@QAEXPAVCDC@@@Z 10010278     dmanage:DManage.dll
+ 0004:0000027c       __imp_?_SetMode@CDirectDraw@@QAEHPAUHWND__@@HHHH@Z 1001027c     dmanage:DManage.dll
+ 0004:00000280       __imp_?GetExecutionPath@CDirectDraw@@SA?AVCString@@H@Z 10010280     dmanage:DManage.dll
+ 0004:00000284       __imp_??1CAlphaProcess@@UAE@XZ 10010284     dmanage:DManage.dll
+ 0004:00000288       __imp_?BltFast@CDDSurface@@QAEHVCPoint@@PAV1@PAVCRect@@K@Z 10010288     dmanage:DManage.dll
+ 0004:0000028c       __imp_?MixHalf@CAlphaProcess@@SAHPAVCDDSurface@@VCRect@@01@Z 1001028c     dmanage:DManage.dll
+ 0004:00000290       __imp_?DrawFogLayer@CDDSurface@@QAEXPAVCRect@@KH@Z 10010290     dmanage:DManage.dll
+ 0004:00000294       __imp_?SetColorKey@CDDSurface@@QAEHK@Z 10010294     dmanage:DManage.dll
+ 0004:00000298       __imp__DDColorMatch        10010298     dmanage:DManage.dll
+ 0004:0000029c       __imp_?GetDC@CDDSurface@@QAEPAVCDC@@XZ 1001029c     dmanage:DManage.dll
+ 0004:000002a0       __imp_?Create@CDDSurface@@QAEHPAVCDirectDraw@@HHH@Z 100102a0     dmanage:DManage.dll
+ 0004:000002a4       __imp_??0CDDSurface@@QAE@XZ 100102a4     dmanage:DManage.dll
+ 0004:000002a8       \177DManage_NULL_THUNK_DATA 100102a8     dmanage:DManage.dll
+ 0004:000002ac       __imp__SetDIBitsToDevice@48 100102ac     gdi32:GDI32.dll
+ 0004:000002b0       __imp__StretchDIBits@52    100102b0     gdi32:GDI32.dll
+ 0004:000002b4       \177GDI32_NULL_THUNK_DATA  100102b4     gdi32:GDI32.dll
+ 0004:000002b8       __imp__GlobalFree@4        100102b8     kernel32:KERNEL32.dll
+ 0004:000002bc       __imp__GlobalAlloc@8       100102bc     kernel32:KERNEL32.dll
+ 0004:000002c0       __imp__MulDiv@12           100102c0     kernel32:KERNEL32.dll
+ 0004:000002c4       __imp__GlobalLock@4        100102c4     kernel32:KERNEL32.dll
+ 0004:000002c8       __imp__GetTickCount@0      100102c8     kernel32:KERNEL32.dll
+ 0004:000002cc       __imp__GlobalUnlock@4      100102cc     kernel32:KERNEL32.dll
+ 0004:000002d0       \177KERNEL32_NULL_THUNK_DATA 100102d0     kernel32:KERNEL32.dll
+ 0004:000002d4       __imp_??3@YAXPAXPBDH@Z     100102d4     mfc42d:MFC42D.DLL
+ 0004:000002d8       __imp_?SetSize@CPtrArray@@QAEXHH@Z 100102d8     mfc42d:MFC42D.DLL
+ 0004:000002dc       __imp_??2@YAPAXIPBDH@Z     100102dc     mfc42d:MFC42D.DLL
+ 0004:000002e0       __imp_??5CArchive@@QAEAAV0@AAK@Z 100102e0     mfc42d:MFC42D.DLL
+ 0004:000002e4       __imp_??5CArchive@@QAEAAV0@AAJ@Z 100102e4     mfc42d:MFC42D.DLL
+ 0004:000002e8       __imp_?ReleaseBuffer@CString@@QAEXH@Z 100102e8     mfc42d:MFC42D.DLL
+ 0004:000002ec       __imp_??1CPtrArray@@UAE@XZ 100102ec     mfc42d:MFC42D.DLL
+ 0004:000002f0       __imp_?Read@CArchive@@QAEIPAXI@Z 100102f0     mfc42d:MFC42D.DLL
+ 0004:000002f4       __imp_?GetBufferSetLength@CString@@QAEPADH@Z 100102f4     mfc42d:MFC42D.DLL
+ 0004:000002f8       __imp_??5CArchive@@QAEAAV0@AAH@Z 100102f8     mfc42d:MFC42D.DLL
+ 0004:000002fc       __imp_?RemoveAll@CPtrArray@@QAEXXZ 100102fc     mfc42d:MFC42D.DLL
+ 0004:00000300       __imp_?GetSize@CPtrArray@@QBEHXZ 10010300     mfc42d:MFC42D.DLL
+ 0004:00000304       __imp_?Empty@CString@@QAEXXZ 10010304     mfc42d:MFC42D.DLL
+ 0004:00000308       __imp_?SetAt@CPtrArray@@QAEXHPAX@Z 10010308     mfc42d:MFC42D.DLL
+ 0004:0000030c       __imp_??ACPtrArray@@QAEAAPAXH@Z 1001030c     mfc42d:MFC42D.DLL
+ 0004:00000310       __imp_??3CObject@@SGXPAXPBDH@Z 10010310     mfc42d:MFC42D.DLL
+ 0004:00000314       __imp_??2CObject@@SGPAXIPBDH@Z 10010314     mfc42d:MFC42D.DLL
+ 0004:00000318       __imp_?GetAt@CPtrArray@@QBEPAXH@Z 10010318     mfc42d:MFC42D.DLL
+ 0004:0000031c       __imp_??0CPtrArray@@QAE@XZ 1001031c     mfc42d:MFC42D.DLL
+ 0004:00000320       __imp_??3CObject@@SGXPAX@Z 10010320     mfc42d:MFC42D.DLL
+ 0004:00000324       __imp_?Read@CFile@@UAEIPAXI@Z 10010324     mfc42d:MFC42D.DLL
+ 0004:00000328       __imp_?GetLength@CFile@@UBEKXZ 10010328     mfc42d:MFC42D.DLL
+ 0004:0000032c       __imp_??1CFile@@UAE@XZ     1001032c     mfc42d:MFC42D.DLL
+ 0004:00000330       __imp_?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 10010330     mfc42d:MFC42D.DLL
+ 0004:00000334       __imp_??BCString@@QBEPBDXZ 10010334     mfc42d:MFC42D.DLL
+ 0004:00000338       __imp_??0CFile@@QAE@XZ     10010338     mfc42d:MFC42D.DLL
+ 0004:0000033c       __imp_?IsEmpty@CString@@QBEHXZ 1001033c     mfc42d:MFC42D.DLL
+ 0004:00000340       __imp_?GetSafeHdc@CDC@@QBEPAUHDC__@@XZ 10010340     mfc42d:MFC42D.DLL
+ 0004:00000344       __imp_?SetStretchBltMode@CDC@@QAEHH@Z 10010344     mfc42d:MFC42D.DLL
+ 0004:00000348       __imp_??1CDC@@UAE@XZ       10010348     mfc42d:MFC42D.DLL
+ 0004:0000034c       __imp_??1CBitmap@@UAE@XZ   1001034c     mfc42d:MFC42D.DLL
+ 0004:00000350       __imp_?SetTextColor@CDC@@UAEKK@Z 10010350     mfc42d:MFC42D.DLL
+ 0004:00000354       __imp_?ReadHuge@CFile@@QAEKPAXK@Z 10010354     mfc42d:MFC42D.DLL
+ 0004:00000358       __imp_?SetBkColor@CDC@@UAEKK@Z 10010358     mfc42d:MFC42D.DLL
+ 0004:0000035c       __imp_?CreateBitmap@CBitmap@@QAEHHHIIPBX@Z 1001035c     mfc42d:MFC42D.DLL
+ 0004:00000360       __imp_?SelectObject@CDC@@QAEPAVCBitmap@@PAV2@@Z 10010360     mfc42d:MFC42D.DLL
+ 0004:00000364       __imp_?CreateCompatibleBitmap@CBitmap@@QAEHPAVCDC@@HH@Z 10010364     mfc42d:MFC42D.DLL
+ 0004:00000368       __imp_??0CBitmap@@QAE@XZ   10010368     mfc42d:MFC42D.DLL
+ 0004:0000036c       __imp_?CreateCompatibleDC@CDC@@QAEHPAV1@@Z 1001036c     mfc42d:MFC42D.DLL
+ 0004:00000370       __imp_?AfxMessageBox@@YGHPBDII@Z 10010370     mfc42d:MFC42D.DLL
+ 0004:00000374       __imp_?AssertValid@CPtrArray@@UBEXXZ 10010374     mfc42d:MFC42D.DLL
+ 0004:00000378       __imp_??3@YAXPAX@Z         10010378     mfc42d:MFC42D.DLL
+ 0004:0000037c       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1001037c     mfc42d:MFC42D.DLL
+ 0004:00000380       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 10010380     mfc42d:MFC42D.DLL
+ 0004:00000384       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10010384     mfc42d:MFC42D.DLL
+ 0004:00000388       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 10010388     mfc42d:MFC42D.DLL
+ 0004:0000038c       __imp_?AfxTrace@@YAXPBDZZ  1001038c     mfc42d:MFC42D.DLL
+ 0004:00000390       __imp_??1CArchive@@QAE@XZ  10010390     mfc42d:MFC42D.DLL
+ 0004:00000394       __imp_??4CString@@QAEABV0@ABV0@@Z 10010394     mfc42d:MFC42D.DLL
+ 0004:00000398       __imp_?Close@CFile@@UAEXXZ 10010398     mfc42d:MFC42D.DLL
+ 0004:0000039c       __imp_?Close@CArchive@@QAEXXZ 1001039c     mfc42d:MFC42D.DLL
+ 0004:000003a0       __imp_??0CArchive@@QAE@PAVCFile@@IHPAX@Z 100103a0     mfc42d:MFC42D.DLL
+ 0004:000003a4       __imp_??0CString@@QAE@ABV0@@Z 100103a4     mfc42d:MFC42D.DLL
+ 0004:000003a8       __imp_??0CPoint@@QAE@XZ    100103a8     mfc42d:MFC42D.DLL
+ 0004:000003ac       __imp_??YCString@@QAEABV0@ABV0@@Z 100103ac     mfc42d:MFC42D.DLL
+ 0004:000003b0       __imp_?Format@CString@@QAAXPBDZZ 100103b0     mfc42d:MFC42D.DLL
+ 0004:000003b4       __imp_?OffsetRect@CRect@@QAEXHH@Z 100103b4     mfc42d:MFC42D.DLL
+ 0004:000003b8       __imp_??0CRect@@QAE@HHHH@Z 100103b8     mfc42d:MFC42D.DLL
+ 0004:000003bc       __imp_?IntersectRect@CRect@@QAEHPBUtagRECT@@0@Z 100103bc     mfc42d:MFC42D.DLL
+ 0004:000003c0       __imp_??BCRect@@QAEPAUtagRECT@@XZ 100103c0     mfc42d:MFC42D.DLL
+ 0004:000003c4       __imp_??0CRect@@QAE@XZ     100103c4     mfc42d:MFC42D.DLL
+ 0004:000003c8       __imp_??5CArchive@@QAEAAV0@AAF@Z 100103c8     mfc42d:MFC42D.DLL
+ 0004:000003cc       __imp_?AfxIsValidAddress@@YGHPBXIH@Z 100103cc     mfc42d:MFC42D.DLL
+ 0004:000003d0       __imp_??5@YGAAVCArchive@@AAV0@AAUtagPOINT@@@Z 100103d0     mfc42d:MFC42D.DLL
+ 0004:000003d4       __imp_??5@YGAAVCArchive@@AAV0@AAUtagSIZE@@@Z 100103d4     mfc42d:MFC42D.DLL
+ 0004:000003d8       __imp_??5CArchive@@QAEAAV0@AAD@Z 100103d8     mfc42d:MFC42D.DLL
+ 0004:000003dc       __imp_??5CArchive@@QAEAAV0@AAE@Z 100103dc     mfc42d:MFC42D.DLL
+ 0004:000003e0       __imp_?GetBuffer@CString@@QAEPADH@Z 100103e0     mfc42d:MFC42D.DLL
+ 0004:000003e4       __imp_?IsRectEmpty@CRect@@QBEHXZ 100103e4     mfc42d:MFC42D.DLL
+ 0004:000003e8       __imp_??_4CRect@@QAEXABUtagRECT@@@Z 100103e8     mfc42d:MFC42D.DLL
+ 0004:000003ec       __imp_?OffsetRect@CRect@@QAEXUtagPOINT@@@Z 100103ec     mfc42d:MFC42D.DLL
+ 0004:000003f0       __imp_?SetRect@CRect@@QAEXHHHH@Z 100103f0     mfc42d:MFC42D.DLL
+ 0004:000003f4       __imp_?Compare@CString@@QBEHPBD@Z 100103f4     mfc42d:MFC42D.DLL
+ 0004:000003f8       __imp_??5@YGAAVCArchive@@AAV0@AAVCString@@@Z 100103f8     mfc42d:MFC42D.DLL
+ 0004:000003fc       __imp_?Height@CRect@@QBEHXZ 100103fc     mfc42d:MFC42D.DLL
+ 0004:00000400       __imp_?Width@CRect@@QBEHXZ 10010400     mfc42d:MFC42D.DLL
+ 0004:00000404       __imp_??0CRect@@QAE@UtagPOINT@@UtagSIZE@@@Z 10010404     mfc42d:MFC42D.DLL
+ 0004:00000408       __imp_??0CSize@@QAE@HH@Z   10010408     mfc42d:MFC42D.DLL
+ 0004:0000040c       __imp_??0CString@@QAE@XZ   1001040c     mfc42d:MFC42D.DLL
+ 0004:00000410       __imp_??0CSize@@QAE@XZ     10010410     mfc42d:MFC42D.DLL
+ 0004:00000414       __imp_??1CString@@QAE@XZ   10010414     mfc42d:MFC42D.DLL
+ 0004:00000418       __imp_?GetRuntimeClass@CPtrArray@@UBEPAUCRuntimeClass@@XZ 10010418     mfc42d:MFC42D.DLL
+ 0004:0000041c       __imp_?Serialize@CObject@@UAEXAAVCArchive@@@Z 1001041c     mfc42d:MFC42D.DLL
+ 0004:00000420       __imp_??0CDC@@QAE@XZ       10010420     mfc42d:MFC42D.DLL
+ 0004:00000424       __imp_?Dump@CPtrArray@@UBEXAAVCDumpContext@@@Z 10010424     mfc42d:MFC42D.DLL
+ 0004:00000428       __imp_?Write@CArchive@@QAEXPBXI@Z 10010428     mfc42d:MFC42D.DLL
+ 0004:0000042c       __imp_?BitBlt@CDC@@QAEHHHHHPAV1@HHK@Z 1001042c     mfc42d:MFC42D.DLL
+ 0004:00000430       __imp_?AfxAssertFailedLine@@YGHPBDH@Z 10010430     mfc42d:MFC42D.DLL
+ 0004:00000434       \177MFC42D_NULL_THUNK_DATA 10010434     mfc42d:MFC42D.DLL
+ 0004:00000438       __imp___except_handler3    10010438     msvcrtd:MSVCRTD.dll
+ 0004:0000043c       __imp___malloc_dbg         1001043c     msvcrtd:MSVCRTD.dll
+ 0004:00000440       __imp___adjust_fdiv        10010440     msvcrtd:MSVCRTD.dll
+ 0004:00000444       __imp____dllonexit         10010444     msvcrtd:MSVCRTD.dll
+ 0004:00000448       __imp___onexit             10010448     msvcrtd:MSVCRTD.dll
+ 0004:0000044c       __imp___free_dbg           1001044c     msvcrtd:MSVCRTD.dll
+ 0004:00000450       __imp_?terminate@@YAXXZ    10010450     msvcrtd:MSVCRTD.dll
+ 0004:00000454       __imp___initterm           10010454     msvcrtd:MSVCRTD.dll
+ 0004:00000458       __imp__memset              10010458     msvcrtd:MSVCRTD.dll
+ 0004:0000045c       __imp___ftol               1001045c     msvcrtd:MSVCRTD.dll
+ 0004:00000460       __imp__ceil                10010460     msvcrtd:MSVCRTD.dll
+ 0004:00000464       __imp__memcpy              10010464     msvcrtd:MSVCRTD.dll
+ 0004:00000468       __imp__abs                 10010468     msvcrtd:MSVCRTD.dll
+ 0004:0000046c       __imp___chkesp             1001046c     msvcrtd:MSVCRTD.dll
+ 0004:00000470       __imp____CxxFrameHandler   10010470     msvcrtd:MSVCRTD.dll
+ 0004:00000474       \177MSVCRTD_NULL_THUNK_DATA 10010474     msvcrtd:MSVCRTD.dll
+
+ entry point at        0001:0000af90
+
+ Static symbols
+
+ 0001:0000ae40       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 1000be40 f   msvcrtd:ehvecdtr.obj
+
+FIXUPS: 1644 2c 18 7 f 3b d 2f d a9ac 1a fffffe26 e0 1e 1e 1d fffffd55
+FIXUPS: be1b 47 ffff5470 19 9 f 16 7 c 19 9 f f 1c 25 c 11 43 1b 44 17
+FIXUPS: 14ac 3b acce e ffff5361 b 2f 22 2c 14 26 19 d 8f9 d 37 d fffff0e3
+FIXUPS: 104b f b 34 b0ae c b ffff4f73 13 13 3a 19 37 13 10 2d d 58 f f
+FIXUPS: 1266 17 aefa c c b ffff512c af67 ffff5934 19 37 13 10 2d d 36 30
+FIXUPS: 1c8c d 29 10 24 16 f 27 1c d 39 2c 14 d 29 14 7 14 40 d 2f d 114c
+FIXUPS: 1754 19 34 13 13 3a 19 37 13 10 2d d 58 12 17 a8a8 b ffff5797 11
+FIXUPS: 19d4 18 2d 35 1b 33 14 29 2b 28 a6d9 1a ffff68d5 2d 11 28 29 16
+FIXUPS: 2bb7 1f 12 69 c 24 18 21 12 39 17 31 18 12a 24 16 17 34 16 16 31
+FIXUPS: 2f86 29 14 21 28 fffff7d4 c c f 1a 9a43 9 9 9 9 b ffff65d5 17 4d
+FIXUPS: 28d8 25 10 16 12 2c e 28 2c 14 16 1e 2b 12 5d 14 13 16 fffffa6a
+FIXUPS: 255b c 10 8 1e c 8 1e c 19 c 10 15 14 26 e 16 1c c f 27 a d 27
+FIXUPS: 2738 16 2b 2b 12 12 c fffffa2c 1d 13 13 f 2a 13 13 13 f 1d 28 1c
+FIXUPS: 2334 1d 9ef3 9 b ffff6145 c 10 3b e 16 d 48 c 10 41 e 16 d c19
+FIXUPS: 3127 73 1f 12 78 d ffffed34 23 2a 13 13 43 d 4c 8 1a 10 10 9 17
+FIXUPS: 2104 10 11 18 f 2c f 1d 1c f 1b 219b d 33 d 37 d 2f d 33 d 37 d
+FIXUPS: 4505 d ffffed6d e 11 2c 3f 11 1f 18 29 f 12 36 d 33 d fffffc82
+FIXUPS: 30cf 32 eb7 26 19 d 37 b 19 10 49 25 23 29 e 10 4c 35 2c 17 7 d
+FIXUPS: 424b 17 7 d 2c 17 7 f 36 d 37 d fffff992 21 37 1a 3b 26 8 f a 1e
+FIXUPS: 3e06 f 20 84df 9 9 1d 20 20 e ffff7ad3 2c 14 26 19 b 2c 14 26 19
+FIXUPS: 3f78 2c 833f c c b ffff761d 8 13 9 e 19 f 20 e 2e f 2f 41 21 37
+FIXUPS: 3aca 3b 28 f 23 41 21 37 1a 3b 28 f 23 8623 ffff7287 13 13 3a 19
+FIXUPS: 3601 d 33 19 37 d 33 19 37 13 10 2d 13 10 2d 13 10 2d d 58 f f
+FIXUPS: 38a3 12 17 8a0b ffffbcfd c f 20 45b5 9 9 9 b ffffba57 3e 1ea d
+FIXUPS: 82a5 d 33 d 33 d 37 d 68 13 28 ffffb080 12 f f 52 8d8c c c ffffb5ca
+FIXUPS: 7895 1d 2e 90 42 54 33 121 47 57 3c 14 38 f f 20 58 3e 14 38 f
+FIXUPS: 7dbe 42 56 39 24 25 c7 b 8 16 fffff6b3 13 c c f 18 c c f 1d 4e83
+FIXUPS: c59d 9 9 b ffffb1af 19 13 c 1d f 11 f 9 e 19 c f 15 18 10 8 fffff958
+FIXUPS: 71fc b 16 150 5 2d 5 4b 1b 65 32 46 62 19 13 c 1d f 11 f 9 e 16
+FIXUPS: 7606 f 12 18 10 c c c fffff21f 14 10 de 13 1f d 28 14 6d 4f 1a
+FIXUPS: 6aff 45 13 1f d 28 14 3f 56 57 30 2c5 10 31 5e 39 6a 97 36 1f fffff0b8
+FIXUPS: 6295 32 27 34 2c 57 f 35 11 20 40 37 8 30 16 37 d 22 33 1b 61 21
+FIXUPS: 6651 35 55 66 2d 21 2c 66 58 fffff43d 1c 8 8 3e 17 4b 17 4b 17
+FIXUPS: 5e46 17 4b 17 1d 35 18 30 8c 5e 1c 25 3b 34 19 57 d 31 e 20 34
+FIXUPS: 622f fffff60b 26 20 17 3a 15 25 3c 2f 17 26 1c d 3b 2f 16 24 1c
+FIXUPS: 5aaa e d 2c 81 4f 25 f 20 695f b ffff96cb 2f 17 fffff8af b 20 c
+FIXUPS: 5585 1a 6f75 9 9 b ffff90b5 1b e 17 35 1b 2f 1a 29 2f 17 20 6e07
+FIXUPS: c563 ffff921e 15 11 e 16 11 33 15 fffffa6c 18 2b b 1f 16 2c 22
+FIXUPS: 537e 7126 1a e ffff8f07 19 1d f 16 f c 15 c 1a 7050 9 17 b ffff8fce
+FIXUPS: 54e2 e 19 13 c fffffac9 13 10 2d 13 10 2d 13 10 52 12 12 12 12
+FIXUPS: 5160 12 12 12 17 727a f f f f f f f b ffff8d50 f 59 1f 718f f b
+FIXUPS: 4c01 13 13 56 16 13 13 13 35 19 37 d 44 18 37 19 37 d 33 19 37
+FIXUPS: 4ede 33 19 37 d 33 13 10 4771 d 33 d ffffae07 d 1bb d 45 d 1c9
+FIXUPS: 4998 e 12 12 12 12 12 12 e 12 e e 1e 36 12c 77d9 f f f f f ffffce6e
+FIXUPS: 9291 26 d 21 11 10 2e 14 29 7 11 11 6a 14 29 1b 7 f 4d 31 2d 52
+FIXUPS: 95a0 2e 51 31 2e 3b d 2f d fffff720 37 c c c 21 51 27 3c 16 c c
+FIXUPS: 8f8c c 25 e 2e e 77 1f 1e 35fa e ffffca9c 21 1c 1a 34 c 8 e 34
+FIXUPS: 8aac 12 14 46 1b 2b 17 29 20 13 7 13 7 29 3a4a 1d e ffffc5f7 17
+FIXUPS: 8cca 2c 14 26 19 b d 4f f 13 d 16 7 fffff91b 3a 19 37 d 33 19 37
+FIXUPS: 883e 33 13 10 2d 13 10 52 f f 12 17 3caa c c b ffffc382 c c 8 d
+FIXUPS: 8a25 27 4f 1171 d 4a 1e bc d 8d 8 1f d 1a ffffe6dc 13 13 53 16
+FIXUPS: 85a3 13 13 50 b 12 b f f 66 3f32 c c b ffffc0d7 13 1201 11 d d
+FIXUPS: 993d d c d d c 1c b 7 34 7 7 c 8 9 a1 26 7 7 4b 13 f 1a 2b6f 9
+FIXUPS: c6e8 ffffd4dc d 71d 2477 e ffffdbc1 22 b b 2c 14 26 19 d 2c 2c
+FIXUPS: a467 7 f 38 d 37 d 2f d fffff272 b b b 4b 31 13 13 7f 6ce 2d d
+FIXUPS: a056 f f 12 17 268a c c b ffffd99c f c 19 9 f c 19 9 f f 1c 25
+FIXUPS: a1d9 11 35 1b 39 17 29 2510 ffffe141 2c 14 26 19 d 34 2c 17 7 f
+FIXUPS: aa55 d 37 d 2f d fffff387 12 f 34 2839 c b ffffd7e3 13 13 3a 19
+FIXUPS: 9fa1 13 117c 1b 7 f fffff413 23 2a 13 13 3a 19 37 13 10 2d d 58
+FIXUPS: a738 17 2038 b ffffe004 f 1a 11 35 1b 3a 17 29 38 1ee3 ffffe5bf
+FIXUPS: ad9d 20 20 1a58 e ffffe5d1 2c 14 26 19 b d 39 14 29 7 11 11 55
+FIXUPS: afb6 31 10 26 1d 2b 1d b 21 11 10 35 41c 1a 18 38 8 9a e c 1d 1202
+FIXUPS: c870 ffffe2b9 12 34 1c68 b ffffe3bf 13 13 5f f 12 17 1b99 c b ffffe498
+FIXUPS: acc3 14 38 1b 33 d28 d fffff73f 13 13 43 d 2a c 1c 1d 16 c 16 f
+FIXUPS: b312 2f 8 8 8 d d d 31 23 1c c 16 f 1a 62 23 1d4 23 2a 13 13 5f
+FIXUPS: b778 17 10f8 b ffffef44 f 11 43 1b 33 17 29 38 fb6 e fffff071 2c
+FIXUPS: b974 26 19 d 34 2c 17 7 f
