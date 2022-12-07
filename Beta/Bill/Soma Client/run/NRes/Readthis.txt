@@ -1,0 +1,5 @@
+cursor.bmp in this folder was actually named - below
+
+보통.bmp
+
+It's probably "hard coded" in the client to depend on the orig filename. so change this back...
