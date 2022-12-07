@@ -1,0 +1,84 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DManage"=.\DManage\DManage.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "IGObject"=.\IGOBJECT\IGObject.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MapManager"=.\MapManager\MapManager.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DManage
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name IGObject
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Soma"=.\Soma.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SOMA/SomaClient", CAAAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DManage
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name IGObject
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MapManager
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
