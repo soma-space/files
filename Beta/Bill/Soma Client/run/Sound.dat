@@ -1,0 +1,127 @@
+0	attack01.wav	맨손공격
+1	attack02.wav	칼/도끼/창공격
+2	attack03.wav	활/석궁공격
+3	hit01.wav	주먹에 맞는소리
+4	hit02.wav	칼/도끼/창에 맞는 소리
+5	scream01.wav	남자비명소리
+6	scream02.wav	여자비명소리
+7	dead01.wav	남자사망소리
+8	dead02.wav	여자사망소리
+9	inv01.wav	인벤토리창에서 갑옷움직임
+10	inv02.wav	인벤토리창에서 무기 움직임
+11	inv03.wav	인벤토리창에서 장신구 움직임
+12	inv04.wav	인벤토리창에서 기타아이템움직임
+13	drink.wav	시약 먹는 소리
+1000	mgs_01_1.wav	mgs_마법번호_1 : 발동음
+1001	mgs_01_2.wav	mgs_마법번호_2 : 진행음
+1002	mgs_01_3.wav	mgs_마법번호_3 : 타격음
+1003	mgs_02_1.wav	
+1004	mgs_02_2.wav	
+1005	mgs_02_3.wav	
+1006	mgs_03_1.wav	
+1007	mgs_03_2.wav	
+1008	mgs_03_3.wav	
+1009	mgs_04_1.wav	
+1010	mgs_04_2.wav	
+1011	mgs_04_3.wav	
+1012	mgs_05_1.wav	
+1013	mgs_05_2.wav	
+1014	mgs_05_3.wav	
+1015	mgs_06_1.wav	
+1016	mgs_06_2.wav	
+1017	mgs_06_3.wav	
+1018	mgs_07_1.wav
+1019	mgs_07_2.wav
+1020	mgs_07_3.wav
+1021	mgs_08_1.wav
+1022	mgs_08_2.wav
+1023	mgs_08_3.wav
+1024	mgs_09_1.wav
+1025	mgs_09_2.wav
+1026	mgs_09_3.wav
+1027	mgs_10_1.wav
+1028	mgs_10_2.wav
+1029	mgs_10_3.wav
+1030	mgs_11_1.wav
+1031	mgs_11_2.wav
+1032	mgs_11_3.wav
+1033	mgs_12_1.wav
+1034	mgs_12_2.wav	
+1035	mgs_12_3.wav	
+1036	mgs_13_1.wav	
+1037	mgs_13_2.wav	
+1038	mgs_13_3.wav	
+5000	mon01-1.wav	mon[몬스터번호]-1 : 평상시소리
+5001	mon01-2.wav	mon[몬스터번호]-2 : 공격시소리
+5002	mon01-3.wav	mon[몬스터번호]-3 : 공격받을때소리
+5003	mon01-4.wav	mon[몬스터번호]-4 : 죽을때소리
+5004	mon02-1.wav	
+5005	mon02-2.wav	
+5006	mon02-3.wav	
+5007	mon02-4.wav	
+5008	mon03-1.wav	
+5009	mon03-2.wav	
+5010	mon03-3.wav	
+5011	mon03-4.wav
+5012	mon04-1.wav
+5013	mon04-2.wav
+5014	mon04-3.wav
+5015	mon04-4.wav
+5016	mon05-1.wav
+5017	mon05-2.wav
+5018	mon05-3.wav
+5019	mon05-4.wav
+5020	mon06-1.wav
+5021	mon06-2.wav
+5022	mon06-3.wav
+5023	mon06-4.wav
+5024	mon07-1.wav
+5025	mon07-2.wav
+5026	mon07-3.wav
+5027	mon07-4.wav
+5028	mon08-1.wav
+5029	mon08-2.wav
+5030	mon08-3.wav
+5031	mon08-4.wav
+5032	mon09-1.wav
+5033	mon09-2.wav
+5034	mon09-3.wav
+5035	mon09-4.wav
+5036	mon10-1.wav
+5037	mon10-2.wav
+5038	mon10-3.wav
+5039	mon10-4.wav
+5040	mon11-1.wav
+5041	mon11-2.wav
+5042	mon11-3.wav
+5043	mon11-4.wav
+5044	mon12-1.wav
+5045	mon12-2.wav
+5046	mon12-3.wav
+5047	mon12-4.wav
+5048	mon13-1.wav
+5049	mon13-2.wav
+5050	mon13-3.wav
+5051	mon13-4.wav
+5052	mon14-1.wav
+5053	mon14-2.wav
+5054	mon14-3.wav
+5055	mon14-4.wav
+5056	mon15-1.wav
+5057	mon15-2.wav
+5058	mon15-3.wav
+5059	mon15-4.wav	
+5060	mon16-1.wav	
+5061	mon16-2.wav	
+5062	mon16-3.wav	
+5063	mon16-4.wav	
+10000	rain0.wav	비오는소리1
+10001	rain1.wav	비오는소리2
+10010	thund0.wav	천둥소리1
+10011	thund1.wav	천둥소리2
+
+
+	이건 캐릭터/UI 사운드(0~499)	
+	여기서부터 마법 사운드(1000~4999)	
+	여기서부터 몬스터 사운드(5000~9999)	
+	여기는 효과음(10000~10999)	
