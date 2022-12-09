@@ -19,7 +19,7 @@
 
 ##  Start
 
-1. Open the control Panel, click Start next to Apache
+1. Open the control panel, click Start next to Apache
 2. Navigate to http://localhost/register.php on the same machine as your Soma server to see your register page
 3. If you are using an external server put the IP address of the server into your home PC's address bar like http://**server ip here**/register.php
 
