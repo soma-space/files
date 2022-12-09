@@ -1,40 +1,32 @@
-Work in progress
-
-
-NOTES
-
-Look into php manager for IIS - not maintained
-https://groups.google.com/g/php-manager-for-iis/c/JMEympetw5Q
-
-Do we have to use JavaScript? We want something that can be changable by someone with very low programming skills..
-
-
-Knock up basic site for register page
+# Register Page
 
 
 
+## Install
 
+1. Download Xampp [here](https://www.apachefriends.org/download.html)
 
-Link to Ramy's shared web pages for more advanced features
+2. Navigate through the Xampp installer with 
 
----
+   1. Apache and PHP ticked under "Select Components"
+   2. Use the default `C:\xampp` directory
 
-Use PHP's msi installer then use PHP's inbuilt server? - PHP have deprecated their MSI installer :| 
+   *By default your website files can go into `C:\xampp\htdocs`* 
 
-What about the windows package managers?
+3. Go to https://github.com/microsoft/msphpsql/releases click the top release and download the zip file relative to your version of PHP i.e. [Windows-8.1.zip](https://github.com/microsoft/msphpsql/releases/download/v5.10.1/Windows-8.1.zip)
 
-## Install PHP
+4. Navigate into the zip file open the `x64` folder copy the file that starts with `php_pdo_` and ends with `_ts.dll` into `C:\xampp\php\ext`
 
-1. Download & install the Chocolately package manager from [here](https://chocolatey.org/install)
-2. Paste `choco install php` into the command prompt and press enter
+5. Open `C:\xampp\php\php.ini` in a text editor, and 
 
+   - Add this new line to the bottom of the file  `extension=php_pdo_sqlsrv_81_ts_x64.dll` where `php_pdo_sqlsrv_81_ts_x64.dll` is the file name you copied out of the zip earlier
+   - Save the file
 
---- 
+6. Download [this register page](https://raw.githubusercontent.com/soma-space/files/main/www/arcanine/register.php) make sure it has the .php extension and not .txt, move it into `C:\xampp\php\htdocs`
 
-In built PHP server does not work on public networks https://www.php.net/manual/en/features.commandline.webserver.php
+7. Open the control Panel, click Start next to Apache
 
-Maybe need to cave in and do `choco install xampp-81`
+8. Navigate to http://localhost/register.php on the same machine as your Soma server to see your register page
 
----
+   
 
-It's very tempting to just make a clojure .exe file and provide source code
