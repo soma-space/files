@@ -24,9 +24,11 @@
 
 6. Download [this register page](https://raw.githubusercontent.com/soma-space/files/main/www/arcanine/register.php) make sure it has the .php extension and not .txt, move it into `C:\xampp\php\htdocs`
 
-7. Open the control Panel, click Start next to Apache
 
-8. Navigate to http://localhost/register.php on the same machine as your Soma server to see your register page
+##  Start
+
+1. Open the control Panel, click Start next to Apache
+2. Navigate to http://localhost/register.php on the same machine as your Soma server to see your register page
 
    
 
