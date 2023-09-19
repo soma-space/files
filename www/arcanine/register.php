@@ -7,12 +7,12 @@ function prepare (string $sql) : PDOStatement
   return $pdo->prepare($sql);
 }
 
-function affect (string $sql, array ...$args) : bool 
+function affect (string $sql, string ...$args) : bool 
 { 
   return prepare($sql)->execute($args);
 }
 
-function retrieve (string $sql, array ...$args) : array 
+function retrieve (string $sql, string ...$args) : array 
 {
   ($statement = prepare($sql))->execute($args);
   return $statement->fetchAll(PDO::FETCH_ASSOC);
