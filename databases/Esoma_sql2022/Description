@@ -1,0 +1,3 @@
+Original contribution by Remix, updated by fox
+
+Upgraded to SQL 2008 R2(100) compatibility and updated to SQL 2022, reduced the size to 7gb without losing data so it can be loaded into SQL express edition.
